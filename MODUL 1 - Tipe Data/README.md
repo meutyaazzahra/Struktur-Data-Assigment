@@ -55,6 +55,8 @@ Program tersebut menggunakan struct untuk menyimpan informasi mahasiswa, seperti
 ### 3. [tipe data koleksi]
 
 #### Output:
+<img width="960" alt="Screenshot 2024-03-12 095245" src="https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/f2cee7e6-0755-4cbd-a6af-8389799f764d">
+
 
 #### Deskripsi Program:   
 Program ini adalah contoh sederhana dalam bahasa C++ yang menggunakan array untuk menyimpan beberapa nilai dan kemudian mencetak nilai-nilai tersebut ke layar.
