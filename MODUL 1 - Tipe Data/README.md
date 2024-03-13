@@ -40,7 +40,6 @@ Di C++, pengubah tipe data digunakan untuk mengubah perilaku dan karakteristik p
 #### Output:
 <img width="960" alt="Screenshot 2024-03-12 094421" src="https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/c623ab99-6f29-4061-8601-294b86f96c62">
 
-
 #### Deskripsi Program:
 Program ini adalah kalkulator sederhana yang meminta pengguna untuk memasukkan operator (+, -, *, /) dan dua bilangan. Kemudian, berdasarkan operator yang dimasukkan, program akan melakukan operasi aritmatika yang sesuai dan menampilkan hasilnya.
 
@@ -49,7 +48,6 @@ Program ini adalah kalkulator sederhana yang meminta pengguna untuk memasukkan o
 #### Output:
 <img width="960" alt="Screenshot 2024-03-12 095245" src="https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/f2cee7e6-0755-4cbd-a6af-8389799f764d">
 
-
 #### Deskripsi Program:
 Program tersebut menggunakan struct untuk menyimpan informasi mahasiswa, seperti nama, alamat, dan umur. Program kemudian menginisialisasi dua variabel struct “mhs1” dan “mhs2” dengan nilai yang sesuai.
 
@@ -57,8 +55,6 @@ Program tersebut menggunakan struct untuk menyimpan informasi mahasiswa, seperti
 
 #### Output:
 <img width="960" alt="Screenshot 2024-03-12 095343" src="https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/76a6bc4a-abd8-43eb-b794-24231ac8c30c">
-
-
 
 #### Deskripsi Program:   
 Program ini adalah contoh sederhana dalam bahasa C++ yang menggunakan array untuk menyimpan beberapa nilai dan kemudian mencetak nilai-nilai tersebut ke layar.
@@ -78,13 +74,10 @@ Program tersebut merupakan contoh sederhana dalam bahasa C++ yang mendefinisikan
 Class adalah struktur data yang dapat menyimpan data bersama-sama dengan fungsi-fungsi atau metode yang beroperasi pada data tersebut. Penggunaan: Class digunakan untuk mewakili objek dalam pemrograman berorientasi objek (OOP). Objek adalah instance dari class, yang memiliki atribut dan metode yang didefinisikan dalam class. Pembentukan: Class dibentuk dengan menggunakan kata kunci class diikuti dengan nama class, diikuti oleh angkur kurung {} yang berisi atribut dan metode. Enkapsulasi: Class memungkinkan untuk menerapkan konsep enkapsulasi, yang berarti data (atribut) dan operasi (metode) yang berhubungan dengan data tersebut dibungkus bersama.
 	
 #### Output:
-
+<img width="960" alt="Screenshot 2024-03-12 095634" src="https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/dc0e4f7e-ccb7-4d54-90e9-83314115e175">
 
 #### Deskripsi Program:
 Program tersebut adalah contoh sederhana dalam bahasa C++ yang menggunakan class untuk merepresentasikan mahasiswa.
-
-#### Full code Screenshot:
-
 
 •	Struct
 Struktur adalah tipe data yang ditentukan pengguna di C/C++. Struktur menciptakan tipe data yang dapat digunakan untuk mengelompokkan item dari tipe yang mungkin berbeda ke dalam satu tipe. 
