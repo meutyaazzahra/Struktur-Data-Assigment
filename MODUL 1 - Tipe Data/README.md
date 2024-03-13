@@ -38,6 +38,7 @@ Di C++, pengubah tipe data digunakan untuk mengubah perilaku dan karakteristik p
 ### 1. [tipe data primitif]
 
 #### Output:
+<img width="960" alt="Screenshot 2024-03-12 094421" src="https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/c623ab99-6f29-4061-8601-294b86f96c62">
 
 
 #### Deskripsi Program:
