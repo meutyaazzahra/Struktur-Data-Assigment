@@ -56,6 +56,7 @@ Program tersebut menggunakan struct untuk menyimpan informasi mahasiswa, seperti
 ### 3. [tipe data koleksi]
 
 #### Output:
+<img width="960" alt="Screenshot 2024-03-12 095343" src="https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/76a6bc4a-abd8-43eb-b794-24231ac8c30c">
 
 
 
