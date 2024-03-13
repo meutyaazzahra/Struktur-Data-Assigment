@@ -69,6 +69,9 @@ Program ini adalah contoh sederhana dalam bahasa C++ yang menggunakan array untu
 #### Deskripsi Program:
 Program tersebut merupakan contoh sederhana dalam bahasa C++ yang mendefinisikan dua fungsi untuk melakukan operasi matematika.
 
+#### Kesimpulan tipe data primitive:
+Setiap tipe data memiliki ciri khas, termasuk ukuran memori yang digunakan dan cara komputer melakukan operasi pada data  tersebut.  Pemilihan  tipe  data  yang  tidak  tepat  dapat menyebabkan masalah seperti penggunaan memori yang tidak efisien, kesalahan   dalam   perhitungan,   dan   kerentanan   dalam   keamanan   program.Tipe  data  primitif  seperti  integer,  float,  double,  char,  dan boolean  adalah  konsep  dasar  yang  ditemukan  dalam  hampir  semua  bahasa  pemrograman.
+
 ### 2. [Jelaskan fungsi dari class dan struct secara detail dan berikan contoh programnya!]
 •	Class 
 Class adalah struktur data yang dapat menyimpan data bersama-sama dengan fungsi-fungsi atau metode yang beroperasi pada data tersebut. Penggunaan: Class digunakan untuk mewakili objek dalam pemrograman berorientasi objek (OOP). Objek adalah instance dari class, yang memiliki atribut dan metode yang didefinisikan dalam class. Pembentukan: Class dibentuk dengan menggunakan kata kunci class diikuti dengan nama class, diikuti oleh angkur kurung {} yang berisi atribut dan metode. Enkapsulasi: Class memungkinkan untuk menerapkan konsep enkapsulasi, yang berarti data (atribut) dan operasi (metode) yang berhubungan dengan data tersebut dibungkus bersama.
