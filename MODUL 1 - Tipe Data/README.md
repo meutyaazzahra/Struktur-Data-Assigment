@@ -1,6 +1,9 @@
 # <h1 align="center">Laporan Praktikum Modul Tipe Data</h1>
 <p align="center">Meutya Azzahra Efendi</p>
 
+
+<img width="960" alt="Screenshot 2024-03-12 094421" src="https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/64863980-1fec-4f8d-9090-1d8e22c7cfb2">
+
 ## Dasar Teori
 Tipe Data adalah klasifikasi tipe data tertentu berdasarkan nilai tertentu atau tipe operasi matematika atau logika tertentu. Tipe data tergantung pada perintah bahasa pemrograman seperti huruf, huruf kecil, huruf besar, angka, tanda baca, dan masih banyak lagi.
 	Tipe data terbagi menjadi tiga bagian, yaitu;
