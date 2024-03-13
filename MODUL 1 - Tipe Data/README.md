@@ -84,14 +84,10 @@ Struktur adalah tipe data yang ditentukan pengguna di C/C++. Struktur menciptaka
 Struktur data dapat dideklarasikan dalam C++ menggunakan sintaks. Dimana merupakan nama untuk tipe struktur, dapat berupa sekumpulan pengidentifikasi yang valid untuk objek yang memiliki tipe struktur ini. Di dalam kurung kurawal , terdapat daftar anggota data, masing-masing ditentukan dengan tipe dan pengidentifikasi yang valid sebagai namanya.
 
 #### Output:
-
+<img width="960" alt="Screenshot 2024-03-12 095658" src="https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/13dbaea4-3263-4796-8a05-b0f4d549f4ee">
 
 #### Deskripsi Program: 
 Program di atas adalah contoh sederhana dari penggunaan struktur (struct) dalam bahasa pemrograman C++. Struktur pasien didefinisikan untuk menyimpan informasi tentang seorang pasien, termasuk nama, umur, dan diagnosa.
-
-
-#### Full code Screenshot:
-
 
 ### 3. [Buat dan jelaskan program menggunakan fungsi map dan jelaskan perbedaan dari array dengan map.]
 
