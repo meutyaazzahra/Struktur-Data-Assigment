@@ -68,13 +68,10 @@ Program ini adalah contoh sederhana dalam bahasa C++ yang menggunakan array untu
 ### 1. [Buatlah program menggunakan tipe data primitif minimal dua fungsi dan bebas. Menampilkan program, jelaskan program tersebut dan ambil kesimpulan dari materi tipe data primitif!]
 
 #### Output:
+<img width="960" alt="Screenshot 2024-03-12 095615" src="https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/9de440d6-afe3-4fc2-add6-6358c1d120b0">
 
-
+#### Deskripsi Program:
 Program tersebut merupakan contoh sederhana dalam bahasa C++ yang mendefinisikan dua fungsi untuk melakukan operasi matematika.
-
-#### Full code Screenshot:
-
-
 
 ### 2. [Jelaskan fungsi dari class dan struct secara detail dan berikan contoh programnya!]
 •	Class 
