@@ -92,6 +92,7 @@ Program di atas adalah contoh sederhana dari penggunaan struktur (struct) dalam 
 ### 3. [Buat dan jelaskan program menggunakan fungsi map dan jelaskan perbedaan dari array dengan map.]
 
 #### Output:
+<img width="960" alt="Screenshot 2024-03-12 100114" src="https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/22e29892-0272-4f9b-baad-1cc4460330cc">
 
 #### Deskripsi Program:
 Program ini memberikan contoh sederhana penggunaan std::map dalam C++, yang memungkinkan kita untuk menyimpan dan mengakses data dengan menggunakan key yang ditetapkan.
@@ -99,15 +100,10 @@ Program ini memberikan contoh sederhana penggunaan std::map dalam C++, yang memu
 #### Perbedaan array dengan map:
 Array dan map memiliki perbedaan dalam hal tipe data dan struktur, ketersediaan kunci atau indeks, kecepatan pencarian, fleksibilitas, dan penggunaan yang optimal dalam situasi tertentu
 
-#### Full code Screenshot:
-
-
-
 ## Kesimpulan
-  Dalam pemrograman, tipe data merupakan konsep dasar yang digunakan  untuk  menentukan  jenis  data  yang  dapat  disimpan  dan  diolah   dalam   sebuah   program.   Pemilihan   tipe   data   yang   tepat   memiliki dampak signifikan terhadap performa dan akurasi algoritma (Adomavicius & Zhang, J. 2012; Dogan & Tanrikulu, Z. 013).
+	Dalam pemrograman, tipe data merupakan konsep dasar yang digunakan  untuk menentukan  jenis  data  yang  dapat  disimpan  dan  diolah   dalam   sebuah   program.   Pemilihan   tipe   data   yang   tepat   memiliki dampak signifikan terhadap performa dan akurasi algoritma (Adomavicius & Zhang, J. 2012; Dogan & Tanrikulu, Z. 013).
 	Sebuah    konsep    yang    mungkin    terlihat    sederhana    pada    pandangan pertama, namun memiliki implikasi yang sangat luas dan mendalam  dalam  pemrograman  komputer.  Pemahaman  terkait  tipe  data  merupakan  fondasi  dari  semua  instruksi  dan  operasi  dalam pemrograman.  Ini  adalah  cara  bagaimana  program  mengenali  dan  memproses   berbagai   bentuk   data   -    dari   angka   dan   teks   hingga   keputusan  logis  dan  struktur  data  yang  lebih  kompleks.  Tipe  data  tidak hanya tentang penyimpanan; ini adalah tentang representasi dan interpretasi   nilai-nilai   dalam   sistem   komputasi.   Setiap   tipe   data   memiliki    aturan    dan    karakteristik    tertentu    yang    menentukan    bagaimana data tersebut disimpan, diakses, dan dimanipulasi.
 	Definisi Tipe Data Tipe data adalah klasifikasi yang menentukan jenis nilai yang dapat  disimpan  dan  dioperasikan  oleh  suatu  variabel.   Dalam pemrograman, tipe data bukan hanya soal bagaimana data disimpan, tetapi  juga  bagaimana  data  tersebut  diinterpretasikan  dan  diproses oleh komputer. Setiap tipe data memiliki ciri khas, termasuk ukuran memori yang digunakan dan cara komputer melakukan operasi pada data  tersebut.  Pemilihan  tipe  data  yang  tidak  tepat  dapat menyebabkan masalah seperti penggunaan memori yang tidak efisien, kesalahan   dalam   perhitungan,   dan   kerentanan   dalam   keamanan   program.Tipe  data  primitif  seperti  integer,  float,  double,  char,  dan boolean  adalah  konsep  dasar  yang  ditemukan  dalam  hampir  semua  bahasa  pemrograman  (Sebesta,  2012).
-
 
 ## Referensi
 [1] (n.d.). Retrieved from https://www.geeksforgeeks.org/structures-in-cpp/
