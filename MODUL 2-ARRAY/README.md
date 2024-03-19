@@ -3,92 +3,88 @@
 
 ## Dasar Teori
 A. Pengertian Array
-Array atau larik sendiri di definisikan sebagai pemesanan alokasi memori berurutan. Definisi ini kurang tepat, karena terjadi kerancuan antara struktur data dan representasinya. Memang benar array hampir selalu di implementasikan menggunakan memory berurutan tapi tidak selalu demikian. Semua elemem array bertipe sama. Array cocok untuk organisasi kumpulan data homogen yang ukuran atau jumlah elemen maksimumnya telah diketahui dari awal. Homogen adalah bahwa setiap elemen dari sebuah array tertentu haruslah mempunyai tipe data yang sama.Dari perngertian struktur dan pengertian array di atas, maka dapat ditarik kesimpulan bahwa struktur array adalah kumpulan elemen-elemen data yang digabungkan menjadi suatu kesatuan yang memiliki tipe homogen (sama).
-## Pengubahan tipe data dalam C++
-Di C++, pengubah tipe data digunakan untuk mengubah perilaku dan karakteristik penyimpanan tipe data dasar. Di C++, ada empat pengubah, int, double, dan char adalah tipe data yang dapat dimodifikasi menggunakan pengubah ini. Mereka adalah sebagai berikut:
-1. Tertanda
-2. Tidak ditandatangani
-3. Pendek
-4. Panjang
+	Array atau larik sendiri di definisikan sebagai pemesanan alokasi memori berurutan. Definisi ini kurang tepat, karena terjadi kerancuan antara struktur data dan representasinya. Memang benar array hampir selalu di implementasikan menggunakan memory berurutan tapi tidak selalu demikian. Semua elemem array bertipe sama. Array cocok untuk organisasi kumpulan data homogen yang ukuran atau jumlah elemen maksimumnya telah diketahui dari awal. Homogen adalah bahwa setiap elemen dari sebuah array tertentu haruslah mempunyai tipe data yang sama.Dari perngertian struktur dan pengertian array di atas, maka dapat ditarik kesimpulan bahwa struktur array adalah kumpulan elemen-elemen data yang digabungkan menjadi suatu kesatuan yang memiliki tipe homogen (sama).
+
+B. Karakteristik Array
+	a. Mempunyai Batasan dari pemesanan alokasi memori (bersifat statis)
+ 	b. Mempunyai tipe data sama (bersifat homogen)
+  	c. Dapat diakses secara acak
+
+C. Penggunaan Array
+	1. Array digunakan untuk suatu database, contohnya table
+ 	2. Array digunakan untuk operasi matematika seperti vektor
+  	3. Digunakan dalam bentuk struktur data lain, contohnya list
+
+D. Bentuk-bentuk Array
+  1. Array Satu Dimensi
+     Array satu diensi yaitu kumpulan elemen-elemen identic yang ghanya terdiri dari satu baris atau hanya satu kolom saja alamat penyimpanan data (indeks). Elemen-elemen tersebut memiliki tipe data yang sama, tetapi isi dari elemen tersebut boleh berbeda
+  2. Array Dua Dimensi
+     Array dua dimensi sering digambarkan sebagai sebuah matriks, merupakan perluasan dari array satu dimensi. Jika array satu dimensi hanya terdiri dari sebuah baris dan beberapa kolom elemen, maka array dua dimensi terdiri dari beberapa baris dan beberapa kolom elemen bertipe sama.
+  3. Array Multi Dimensi
+     Array ini seperti array dua diensi tetapi dapat memiliki urutan yang lebih besar. Array ini digunakan untuk merepresentasikan array dengan dimensi yang lebih dari dua dimensi, contohnya array tiga dimensi, array empat dimensi, dan seterusnya.
 
 ## Guided 
 
-### 1. [tipe data primitif]
+### 1. [program input array tiga dimensi]
 
 #### Output:
-<img width="960" alt="Screenshot 2024-03-12 094421" src="https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/c623ab99-6f29-4061-8601-294b86f96c62">
+<img width="960" alt="Screenshot 2024-03-19 195410" src="https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/c87fb4bd-8e4c-4d2d-af6d-a6ae406f540a">
+
+<img width="960" alt="Screenshot 2024-03-19 195447" src="https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/1ecdd3d3-2e83-4cf2-b7cc-8c3b75487e4a">
 
 #### Deskripsi Program:
-Program ini adalah kalkulator sederhana yang meminta pengguna untuk memasukkan operator (+, -, *, /) dan dua bilangan. Kemudian, berdasarkan operator yang dimasukkan, program akan melakukan operasi aritmatika yang sesuai dan menampilkan hasilnya.
+Program di atas adalah sebuah program dalam bahasa C++ yang mengimplementasikan array tiga dimensi. Program ini meminta pengguna untuk memasukkan nilai ke dalam array tiga dimensi tersebut, kemudian mencetak nilai-nilai tersebut ke layar. Setelah nilai-nilai dimasukkan dan dicetak, program juga mencetak ulang nilai-nilai tersebut dalam format array tiga dimensi yang lebih mudah dibaca.
 
-### 2. [tipe data abstrak]
+### 2. [program mencari nilai maksimal pada array]
 
 #### Output:
-<img width="960" alt="Screenshot 2024-03-12 095245" src="https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/f2cee7e6-0755-4cbd-a6af-8389799f764d">
+<img width="960" alt="Screenshot 2024-03-19 200002" src="https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/4d30676a-967e-45ba-8963-46565f116d09">
 
 #### Deskripsi Program:
-Program tersebut menggunakan struct untuk menyimpan informasi mahasiswa, seperti nama, alamat, dan umur. Program kemudian menginisialisasi dua variabel struct “mhs1” dan “mhs2” dengan nilai yang sesuai.
-
-### 3. [tipe data koleksi]
-
-#### Output:
-<img width="960" alt="Screenshot 2024-03-12 095343" src="https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/76a6bc4a-abd8-43eb-b794-24231ac8c30c">
-
-#### Deskripsi Program:   
-Program ini adalah contoh sederhana dalam bahasa C++ yang menggunakan array untuk menyimpan beberapa nilai dan kemudian mencetak nilai-nilai tersebut ke layar.
+Program di atas adalah sebuah program dalam bahasa C++ yang bertujuan untuk mencari nilai maksimum dari sebuah array yang diisi oleh pengguna dan mencetak nilai maksimum beserta indeksnya.
 
 ## Unguided 
 
-### 1. [Buatlah program menggunakan tipe data primitif minimal dua fungsi dan bebas. Menampilkan program, jelaskan program tersebut dan ambil kesimpulan dari materi tipe data primitif!]
+### 1. [Buatlah program untuk menampilkan output seperti berikut dengan data yang diinputkan user!]
 
 #### Output:
-<img width="960" alt="Screenshot 2024-03-12 095615" src="https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/9de440d6-afe3-4fc2-add6-6358c1d120b0">
+<img width="960" alt="Screenshot 2024-03-19 200936" src="https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/c3fd17fb-4698-45e2-98cc-1793c59a43e6">
 
 #### Deskripsi Program:
-Program tersebut merupakan contoh sederhana dalam bahasa C++ yang mendefinisikan dua fungsi untuk melakukan operasi matematika.
+Program tersebut merupakan sebuah program bahasa C++ yang melakukan hal berikut:
+1. Meminta pengguna untuk memasukkan 10 bilangan secara berurutan
+2. Memproses array bilangan yang dimasukkan pengguna
+3. Mencari bilangan genap dari array yang dimasukkan dan menampilkannya.
+4. Mencari bilangan ganjil dari array yang dimasukkan dan menampilkannya.
 
-#### Kesimpulan tipe data primitive:
-Setiap tipe data memiliki ciri khas, termasuk ukuran memori yang digunakan dan cara komputer melakukan operasi pada data  tersebut.  Pemilihan  tipe  data  yang  tidak  tepat  dapat menyebabkan masalah seperti penggunaan memori yang tidak efisien, kesalahan   dalam   perhitungan,   dan   kerentanan   dalam   keamanan   program.Tipe  data  primitif  seperti  integer,  float,  double,  char,  dan boolean  adalah  konsep  dasar  yang  ditemukan  dalam  hampir  semua  bahasa  pemrograman.
-
-### 2. [Jelaskan fungsi dari class dan struct secara detail dan berikan contoh programnya!]
-•	Class 
-Class adalah struktur data yang dapat menyimpan data bersama-sama dengan fungsi-fungsi atau metode yang beroperasi pada data tersebut. Penggunaan: Class digunakan untuk mewakili objek dalam pemrograman berorientasi objek (OOP). Objek adalah instance dari class, yang memiliki atribut dan metode yang didefinisikan dalam class. Pembentukan: Class dibentuk dengan menggunakan kata kunci class diikuti dengan nama class, diikuti oleh angkur kurung {} yang berisi atribut dan metode. Enkapsulasi: Class memungkinkan untuk menerapkan konsep enkapsulasi, yang berarti data (atribut) dan operasi (metode) yang berhubungan dengan data tersebut dibungkus bersama.
+### 2. [Buatlah program input array tiga dimensi (seperti pada guided) tetapi jumlah atau ukuran elemennya diinputkan oleh user!]
 	
 #### Output:
-<img width="960" alt="Screenshot 2024-03-12 095634" src="https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/dc0e4f7e-ccb7-4d54-90e9-83314115e175">
+
+<img width="960" alt="Screenshot 2024-03-19 201739" src="https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/bac2f8ef-27da-4928-8291-fe16a27bb63d">
+
+<img width="960" alt="Screenshot 2024-03-19 201751" src="https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/a26af463-8cc3-4189-9211-0c7581fbe094">
+
+<img width="960" alt="Screenshot 2024-03-19 201805" src="https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/f2a13449-d14d-4ca5-968e-3da34402c8de">
+
+<img width="960" alt="Screenshot 2024-03-19 201827" src="https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/ea0ab456-2da4-40cc-8681-0695ea7ba960">
 
 #### Deskripsi Program:
-Program tersebut adalah contoh sederhana dalam bahasa C++ yang menggunakan class untuk merepresentasikan mahasiswa.
+Program di atas adalah program dalam bahasa C++ yang memungkinkan pengguna untuk memasukkan elemen-elemen ke dalam matriks tiga dimensi dan kemudian mencetak matriks tersebut.
 
-•	Struct
-Struktur adalah tipe data yang ditentukan pengguna di C/C++. Struktur menciptakan tipe data yang dapat digunakan untuk mengelompokkan item dari tipe yang mungkin berbeda ke dalam satu tipe. 
-Struktur data dapat dideklarasikan dalam C++ menggunakan sintaks. Dimana merupakan nama untuk tipe struktur, dapat berupa sekumpulan pengidentifikasi yang valid untuk objek yang memiliki tipe struktur ini. Di dalam kurung kurawal , terdapat daftar anggota data, masing-masing ditentukan dengan tipe dan pengidentifikasi yang valid sebagai namanya.
+### 3. [Buatlah program menu untuk mencari nilai maksimum, minimum, dan nilai rata-rata dari suatu array dengan input yang dimasukkan user!]
 
 #### Output:
-<img width="960" alt="Screenshot 2024-03-12 095658" src="https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/13dbaea4-3263-4796-8a05-b0f4d549f4ee">
+<img width="960" alt="Screenshot 2024-03-19 202651" src="https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/e422ac60-45b1-4ba0-bed6-678a580ea571">
 
-#### Deskripsi Program: 
-Program di atas adalah contoh sederhana dari penggunaan struktur (struct) dalam bahasa pemrograman C++. Struktur pasien didefinisikan untuk menyimpan informasi tentang seorang pasien, termasuk nama, umur, dan diagnosa.
+<img width="960" alt="Screenshot 2024-03-19 202710" src="https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/84728ecd-cbe9-49d5-957f-969c34b1ee26">
 
-### 3. [Buat dan jelaskan program menggunakan fungsi map dan jelaskan perbedaan dari array dengan map.]
-
-#### Output:
-<img width="960" alt="Screenshot 2024-03-12 100114" src="https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/22e29892-0272-4f9b-baad-1cc4460330cc">
+<img width="960" alt="Screenshot 2024-03-19 202729" src="https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/13a1e0c2-7d5b-40c2-8b6b-64b359cddcb8">
 
 #### Deskripsi Program:
-Program ini memberikan contoh sederhana penggunaan std::map dalam C++, yang memungkinkan kita untuk menyimpan dan mengakses data dengan menggunakan key yang ditetapkan.
-
-#### Perbedaan array dengan map:
-Array dan map memiliki perbedaan dalam hal tipe data dan struktur, ketersediaan kunci atau indeks, kecepatan pencarian, fleksibilitas, dan penggunaan yang optimal dalam situasi tertentu
+Program di atas memungkinkan pengguna untuk memasukkan elemen-elemen ke dalam array dan kemudian memilih operasi apa yang ingin dilakukan pada array tersebut, yaitu mencari nilai maksimum, minimum, atau rata-rata dari elemen-elemennya.
 
 ## Kesimpulan
-	Dalam pemrograman, tipe data merupakan konsep dasar yang digunakan  untuk menentukan  jenis  data  yang  dapat  disimpan  dan  diolah   dalam   sebuah   program.   Pemilihan   tipe   data   yang   tepat   memiliki dampak signifikan terhadap performa dan akurasi algoritma (Adomavicius & Zhang, J. 2012; Dogan & Tanrikulu, Z. 013).
-	Sebuah    konsep    yang    mungkin    terlihat    sederhana    pada    pandangan pertama, namun memiliki implikasi yang sangat luas dan mendalam  dalam  pemrograman  komputer.  Pemahaman  terkait  tipe  data  merupakan  fondasi  dari  semua  instruksi  dan  operasi  dalam pemrograman.  Ini  adalah  cara  bagaimana  program  mengenali  dan  memproses   berbagai   bentuk   data   -    dari   angka   dan   teks   hingga   keputusan  logis  dan  struktur  data  yang  lebih  kompleks.  Tipe  data  tidak hanya tentang penyimpanan; ini adalah tentang representasi dan interpretasi   nilai-nilai   dalam   sistem   komputasi.   Setiap   tipe   data   memiliki    aturan    dan    karakteristik    tertentu    yang    menentukan    bagaimana data tersebut disimpan, diakses, dan dimanipulasi.
-	Definisi Tipe Data Tipe data adalah klasifikasi yang menentukan jenis nilai yang dapat  disimpan  dan  dioperasikan  oleh  suatu  variabel.   Dalam pemrograman, tipe data bukan hanya soal bagaimana data disimpan, tetapi  juga  bagaimana  data  tersebut  diinterpretasikan  dan  diproses oleh komputer. Setiap tipe data memiliki ciri khas, termasuk ukuran memori yang digunakan dan cara komputer melakukan operasi pada data  tersebut.  Pemilihan  tipe  data  yang  tidak  tepat  dapat menyebabkan masalah seperti penggunaan memori yang tidak efisien, kesalahan   dalam   perhitungan,   dan   kerentanan   dalam   keamanan   program.Tipe  data  primitif  seperti  integer,  float,  double,  char,  dan boolean  adalah  konsep  dasar  yang  ditemukan  dalam  hampir  semua  bahasa  pemrograman  (Sebesta,  2012).
 
 ## Referensi
-[1] (n.d.). Retrieved from https://www.geeksforgeeks.org/structures-in-cpp/
-[2] AS, R. (2023, Februari 17). Simplilearn. Retrieved from https://www.simplilearn.com/tutorials/cpp-tutorial/classes-in-cpp
-[3] Lestari, K. (2019, Maret 30). ARRAY STATIS DATA STRUKTUR. Retrieved from PRETAK OSF: https://osf.io/preprints/osf/mx6cp
-[4] Rizky Amaliah, S. I. (2021). Perancangan Bahan Ajar Pemrograman Dasar C++ Berbasis Media Pembelajaran Software Sigil. Retrieved from https://www.neliti.com/publications/439876/design-of-teaching-materials-programming-basic-c-based-on-sigil-software-learnin
-[5] Wika Purbasari, T. I. (2024). ALGORITMA PEMROGRAMAN. 20-21.
+[1] 
