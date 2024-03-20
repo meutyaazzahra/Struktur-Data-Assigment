@@ -6,14 +6,14 @@ A. Pengertian Array
 	Array atau larik sendiri di definisikan sebagai pemesanan alokasi memori berurutan. Definisi ini kurang tepat, karena terjadi kerancuan antara struktur data dan representasinya. Memang benar array hampir selalu di implementasikan menggunakan memory berurutan tapi tidak selalu demikian. Semua elemem array bertipe sama. Array cocok untuk organisasi kumpulan data homogen yang ukuran atau jumlah elemen maksimumnya telah diketahui dari awal. Homogen adalah bahwa setiap elemen dari sebuah array tertentu haruslah mempunyai tipe data yang sama.Dari perngertian struktur dan pengertian array di atas, maka dapat ditarik kesimpulan bahwa struktur array adalah kumpulan elemen-elemen data yang digabungkan menjadi suatu kesatuan yang memiliki tipe homogen (sama).
 
 B. Karakteristik Array
-	a. Mempunyai Batasan dari pemesanan alokasi memori (bersifat statis)
- 	b. Mempunyai tipe data sama (bersifat homogen)
-  	c. Dapat diakses secara acak
+  a. Mempunyai Batasan dari pemesanan alokasi memori (bersifat statis)
+  b. Mempunyai tipe data sama (bersifat homogen)
+  c. Dapat diakses secara acak
 
 C. Penggunaan Array
-	1. Array digunakan untuk suatu database, contohnya table
- 	2. Array digunakan untuk operasi matematika seperti vektor
-  	3. Digunakan dalam bentuk struktur data lain, contohnya list
+  1. Array digunakan untuk suatu database, contohnya table
+  2. Array digunakan untuk operasi matematika seperti vektor
+  3. Digunakan dalam bentuk struktur data lain, contohnya list
 
 D. Bentuk-bentuk Array
   1. Array Satu Dimensi
