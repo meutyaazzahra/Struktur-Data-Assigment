@@ -2,7 +2,7 @@
 <p align="center">Meutya Azzahra Efendi</p>
 
 ## Dasar Teori
-A. Pengertian Array
+A. Pengertian Array:
 	Array atau larik sendiri didefinisikan sebagai pemesanan alokasi memori berurutan. Definisi ini kurang tepat, karena terjadu kerancuan antara struktur data dan representasinya. Memang benar, array hampir selalu di implementasikan menggunakan memori berurutan tapi tidak selalu demikian. Semua elemen array bertipe sama. Array cocok untuk organisasi kumpulan data homogen yang ukuran atau jumlah elemen maksimumnya telah diketahui dari awal. Homogen adalah bahwa setiap elemen dari sebuah array tertentu haruslah mempunyai tipe data yang sama. Dari pengertian struktur dan pengertian array di atas, maka dapat ditarik kesimpulan bahwa struktur array adalah kumpulan elemen-elemen data yang digabungkan menjadi suatu kesatuan yang memiliki tipe homogen (sama).
 
 B. Karakteristik Array
