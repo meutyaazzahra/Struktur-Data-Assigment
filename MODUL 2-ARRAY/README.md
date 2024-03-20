@@ -17,7 +17,7 @@ C. Penggunaan Array
 
 D. Bentuk-bentuk Array
   1. Array Satu Dimensi
-     Array satu diensi yaitu kumpulan elemen-elemen identic yang ghanya terdiri dari satu baris atau hanya satu kolom saja alamat penyimpanan data (indeks). Elemen-elemen tersebut memiliki tipe data yang sama, tetapi isi dari elemen tersebut boleh berbeda
+     Array satu dimensi yaitu kumpulan elemen-elemen identic yang ghanya terdiri dari satu baris atau hanya satu kolom saja alamat penyimpanan data (indeks). Elemen-elemen tersebut memiliki tipe data yang sama, tetapi isi dari elemen tersebut boleh berbeda
   3. Array Dua Dimensi
      Array dua dimensi sering digambarkan sebagai sebuah matriks, merupakan perluasan dari array satu dimensi. Jika array satu dimensi hanya terdiri dari sebuah baris dan beberapa kolom elemen, maka array dua dimensi terdiri dari beberapa baris dan beberapa kolom elemen bertipe sama. 
   5. Array Multi Dimensi
