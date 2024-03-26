@@ -725,13 +725,13 @@ a. <img width="960" alt="Screenshot 2024-03-26 193547" src="https://github.com/m
 
 b. <img width="960" alt="Screenshot 2024-03-26 193658" src="https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/6348167b-1363-49ae-a594-976ba6cc2308">
 
-c. ![Screenshot (2879)](https://github.com/andikaneviantoro/Struktur-Data-Assigment/assets/98001415/59557b89-9d00-4aee-95b1-e8460325048e)
+c. <img width="960" alt="Screenshot 2024-03-26 193850" src="https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/14d75ae6-c1e6-4d90-89f4-ee498eb60dd3">
 
-d. ![Screenshot (2880)](https://github.com/andikaneviantoro/Struktur-Data-Assigment/assets/98001415/181c4bb4-4f1d-4a05-97d0-eba2093a73a0)
+d. <img width="960" alt="Screenshot 2024-03-26 193945" src="https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/7dbccd32-342d-4e76-843f-3f6c22690526">
 
-e. ![Screenshot (2881)](https://github.com/andikaneviantoro/Struktur-Data-Assigment/assets/98001415/b1ec0907-5351-464d-9651-f570460572cf)
+e. <img width="960" alt="Screenshot 2024-03-26 194028" src="https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/5f3f3fc3-7b3b-45a1-8598-a5b006f8ea5e">
 
-f. ![Screenshot (2882)](https://github.com/andikaneviantoro/Struktur-Data-Assigment/assets/98001415/e3013f3a-645c-4eed-94c4-d3d31f24272b)
+f. <img width="960" alt="Screenshot 2024-03-26 194106" src="https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/978f78cc-9ebd-4146-b7eb-94733fcd4c0b">
 
 
 Program yang diberikan adalah sebuah aplikasi sederhana untuk mengelola daftar mahasiswa menggunakan struktur data linked list. Program ini memungkinkan pengguna untuk melakukan beberapa operasi, seperti menampilkan semua data mahasiswa, menghapus data mahasiswa dengan nama tertentu, menambahkan data mahasiswa di antara dua mahasiswa tertentu, menambahkan data mahasiswa di awal daftar, serta mengubah data mahasiswa berdasarkan nama.
