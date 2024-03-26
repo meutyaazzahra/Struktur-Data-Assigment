@@ -37,9 +37,11 @@ Setelah melakukan inisialisasi linked list, beberapa operasi yang harus dilakuka
 -	Penelusuran linked list
 Dengan melakukan operasi-operasi ini setelah inisialisasi linked list, anda dapat memastikan bahwa linked list telah diinisialisasi dengan benar dan siap untuk melakukan operasi-operasi lain seperti penyisipan, penghapusan, dan penelusuran.
 Linked list memiliki kelebihan dan kekurangan seagai berikut:
+
 -Kelebihan:
 1.	Penambahan elemen tidak terbatas: linked list memungkinkan penambahan elemen tanpa perlu mengalokasikan memori secara berurutan, sehingga memungkinkan untuk diubah secara dinamis
 2.	Penghapusan elemen lebih cepat: operasi penghapusan elemen pada linked list dapat dilakukan dengan mudah dan relative cepat
+
 -Kekurangan:
 1.	Hanya bisa diakses secara sekuensial: linked list memerlukan traversal dari awal hingga elemen yang diinginkan, sehingga akses data secara acak tidak dapat dilakukan secara efisien
 2.	Memerlukan lebih banyak memori dalam jumlah yang besar: linked list memerlukan lebih banyak memori dibandingkan dengan array karena setiap elemen harus menyimpan alamat dari elemen berikutnya
