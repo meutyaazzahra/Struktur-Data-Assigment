@@ -1007,10 +1007,10 @@ int main() {
 <img width="960" alt="Screenshot 2024-03-26 195442" src="https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/306d716c-f2f5-466d-b96c-72c25057d7db">
 
 ##### 2. Hapus produk wardah:
-![Screenshot (2885)](https://github.com/andikaneviantoro/Struktur-Data-Assigment/assets/98001415/6ca7b8ae-158f-4c54-ad70-6479e915b724)
+<img width="960" alt="Screenshot 2024-03-26 195507" src="https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/6ba97de9-c5da-41d0-85e1-8130cd15bb04">)
 
 ##### 3, Update produk Hanasui menjadi Cleora dengan harga 55.000
-<img width="960" alt="Screenshot 2024-03-26 195507" src="https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/6ba97de9-c5da-41d0-85e1-8130cd15bb04">)
+<img width="960" alt="Screenshot 2024-03-26 195543" src="https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/0e087fb1-f3ff-4b83-a260-76d0071fb947">
 
 ##### 4. Tampilan Akhir Menu
 <img width="960" alt="Screenshot 2024-03-26 195606" src="https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/83c0581e-e68c-4f9e-b928-463ead922a21">
