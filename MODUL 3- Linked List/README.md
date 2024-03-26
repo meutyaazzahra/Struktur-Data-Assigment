@@ -361,7 +361,7 @@ int main()
 #### Output :
 <img width="960" alt="Screenshot 2024-03-26 162915" src="https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/ad997add-9eed-4baa-8626-30d76b825092">
 
-
+### Deskripsi Program:
 Program yang diberikan adalah implementasi dari sebuah linked list non-circular menggunakan bahasa pemrograman C++. Linked list adalah struktur data linear di mana setiap elemen disimpan secara terpisah dalam objek yang disebut "node". Setiap node memiliki dua bagian utama: data yang menyimpan nilai elemen dan pointer yang menunjuk ke node berikutnya dalam urutan.
 
 ### 2. Double Linked List
@@ -505,9 +505,7 @@ int main() {
 
 <img width="227" alt="Screenshot 2024-03-26 164102" src="https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/c778446d-8faa-4d1e-80e1-b11fb3f2b7d7">
 
-
-
-
+### Deskripsi Program:
 Program yang diberikan adalah implementasi dari Doubly Linked List menggunakan C++. Doubly Linked List adalah struktur data linear di mana setiap elemen disimpan dalam sebuah node yang memiliki dua pointer, yaitu pointer ke node sebelumnya (prev) dan pointer ke node selanjutnya (next). Program ini memungkinkan pengguna untuk menambah, menghapus, memperbarui, menghapus semua data, dan menampilkan data dalam Doubly Linked List melalui antarmuka konsol.
 
 
@@ -733,7 +731,7 @@ e. <img width="960" alt="Screenshot 2024-03-26 194028" src="https://github.com/m
 
 f. <img width="960" alt="Screenshot 2024-03-26 194106" src="https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/978f78cc-9ebd-4146-b7eb-94733fcd4c0b">
 
-
+### Deskripsi Program:
 Program yang diberikan adalah sebuah aplikasi sederhana untuk mengelola daftar mahasiswa menggunakan struktur data linked list. Program ini memungkinkan pengguna untuk melakukan beberapa operasi, seperti menampilkan semua data mahasiswa, menghapus data mahasiswa dengan nama tertentu, menambahkan data mahasiswa di antara dua mahasiswa tertentu, menambahkan data mahasiswa di awal daftar, serta mengubah data mahasiswa berdasarkan nama.
 
 
@@ -1015,7 +1013,7 @@ int main() {
 ##### 4. Tampilan Akhir Menu
 <img width="960" alt="Screenshot 2024-03-26 195606" src="https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/83c0581e-e68c-4f9e-b928-463ead922a21">
 
-
+### Deskripsi Program:
 Program C++ di atas adalah aplikasi manajemen data produk yang menggunakan struktur data linked list. Program ini memungkinkan pengguna untuk menambah, menghapus, mengupdate, serta menampilkan data produk. Pengguna dapat memilih operasi yang diinginkan melalui menu yang disediakan. Setiap operasi yang dilakukan akan segera memperbarui tampilan data produk. Program akan berjalan hingga pengguna memilih untuk keluar. Program yang diberikan adalah aplikasi manajemen produk untuk toko skincare di Purwokerto. Aplikasi ini menggunakan struktur data linked list untuk menyimpan informasi produk, termasuk nama produk dan harganya.
 
 
@@ -1025,6 +1023,6 @@ Kelebihan linked list antara lain penambahan elemen tidak terbatas dan penghapus
 Secara keseluruhan, linked list adalah struktur data yang fleksibel dan efisien dalam operasi penyisipan dan penghapusan, namun perlu diperhatikan karakteristik dan kebutuhan spesifik dari aplikasi saat memilih menggunakan linked list sebagai struktur data.
 
 ## Referensi
-[1] "Struktur Data Linked List : Pengertian, Karakteristik, dan Jenis - jenisnya" Trivusi, 2022.
+[1] Erkamim Erkamim, I. A. (2024). Buku Ajar Algoritma dan Struktur Data. PT. Sonpedia Publishing Indonesia.
 
-[2] Aryandi, Muhammad. "Belajar Struktur Data: Linked List" Medium, 2023.
+[2] Legito Legito, R. S. (2023). BUKU AJAR PENGANTAR ILMU KOMPUTER. PT. Sonpedia Publishing Indonesia.
