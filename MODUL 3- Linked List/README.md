@@ -499,11 +499,16 @@ int main() {
 ```
 
 #### Output :
-![Screenshot (2876)](https://github.com/andikaneviantoro/Struktur-Data-Assigment/assets/98001415/ff73c813-a5b0-4cd3-b367-71174ff0c3f6)
+<img width="960" alt="Screenshot 2024-03-26 163731" src="https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/5800afae-e7c8-4c22-8500-b27491a9a057">
+
+<img width="960" alt="Screenshot 2024-03-26 163953" src="https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/065acc5a-9c6d-48f1-b489-8ed9c665fe73">
+
+<img width="227" alt="Screenshot 2024-03-26 164102" src="https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/c778446d-8faa-4d1e-80e1-b11fb3f2b7d7">
 
 
-Program di atas adalah implementasi double linked list. Kelas Node mendefinisikan struktur simpul dengan tiga anggota: data, prev, dan next. Kelas DoublyLinkedList menyediakan fungsi-fungsi dasar seperti penambahan data ke depan, penghapusan data dari depan, pengubahan data, penghapusan seluruh isi, dan penampilan isi linked list.
-Program juga menyediakan antarmuka pengguna melalui fungsi main(), dimana pengguna dapat memilih operasi yang ingin dilakukan seperti penambahan, penghapusan, pengubahan, membersihkan, atau menampilkan isi linked list.
+
+
+Program yang diberikan adalah implementasi dari Doubly Linked List menggunakan C++. Doubly Linked List adalah struktur data linear di mana setiap elemen disimpan dalam sebuah node yang memiliki dua pointer, yaitu pointer ke node sebelumnya (prev) dan pointer ke node selanjutnya (next). Program ini memungkinkan pengguna untuk menambah, menghapus, memperbarui, menghapus semua data, dan menampilkan data dalam Doubly Linked List melalui antarmuka konsol.
 
 
 ## Unguided 
