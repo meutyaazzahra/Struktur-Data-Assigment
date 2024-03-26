@@ -721,7 +721,7 @@ int main() {
 ```
 
 #### Output:
-a. ![Screenshot (2877)](https://github.com/andikaneviantoro/Struktur-Data-Assigment/assets/98001415/31e6c386-2c84-4228-aafb-3756d916713c)
+a. <img width="960" alt="Screenshot 2024-03-26 193243" src="https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/9a94f09a-c6dd-4518-b8f7-26a79db4f7ab">
 
 b. ![Screenshot (2878)](https://github.com/andikaneviantoro/Struktur-Data-Assigment/assets/98001415/5f46cc90-74f9-4154-8472-32743d68ae0e)
 
