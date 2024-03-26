@@ -721,9 +721,9 @@ int main() {
 ```
 
 #### Output:
-a. <img width="960" alt="Screenshot 2024-03-26 193243" src="https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/9a94f09a-c6dd-4518-b8f7-26a79db4f7ab">
+a. <img width="960" alt="Screenshot 2024-03-26 193547" src="https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/18737f57-f2d5-491d-94d8-b943c8f87ea7">
 
-b. ![Screenshot (2878)](https://github.com/andikaneviantoro/Struktur-Data-Assigment/assets/98001415/5f46cc90-74f9-4154-8472-32743d68ae0e)
+b. <img width="960" alt="Screenshot 2024-03-26 193658" src="https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/6348167b-1363-49ae-a594-976ba6cc2308">
 
 c. ![Screenshot (2879)](https://github.com/andikaneviantoro/Struktur-Data-Assigment/assets/98001415/59557b89-9d00-4aee-95b1-e8460325048e)
 
