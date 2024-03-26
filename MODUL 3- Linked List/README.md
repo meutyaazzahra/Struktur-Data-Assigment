@@ -359,11 +359,10 @@ int main()
 ```
 
 #### Output :
-![Screenshot (2875)](https://github.com/andikaneviantoro/Struktur-Data-Assigment/assets/98001415/5076a5d0-08ab-43ad-ae08-e848c7c82507)
+<img width="960" alt="Screenshot 2024-03-26 162915" src="https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/ad997add-9eed-4baa-8626-30d76b825092">
 
 
-Program di atas adalah implementasi dari sebuah single linked list. Program ini terdiri dari beberapa fungsi dasar yang mencakup operasi-operasi seperti penambahan elemen di depan, di belakang, di tengah, penghapusan elemen di depan, di belakang, di tengah, serta pengubahan nilai elemen di depan, di belakang, dan di tengah. Selain itu, terdapat juga fungsi untuk menghitung jumlah elemen dalam list dan untuk membersihkan seluruh isi list.
-Fungsi utama main() digunakan untuk menguji fungsi-fungsi yang telah dibuat dengan contoh penggunaan operasi-operasi dasar pada linked list, seperti penambahan, penghapusan, dan pengubahan elemen, serta menampilkan isi linked list setiap kali setelah dilakukan operasi tersebut.
+Program yang diberikan adalah implementasi dari sebuah linked list non-circular menggunakan bahasa pemrograman C++. Linked list adalah struktur data linear di mana setiap elemen disimpan secara terpisah dalam objek yang disebut "node". Setiap node memiliki dua bagian utama: data yang menyimpan nilai elemen dan pointer yang menunjuk ke node berikutnya dalam urutan.
 
 ### 2. Double Linked List
 
