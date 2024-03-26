@@ -1001,19 +1001,19 @@ int main() {
 #### Output:
 
 ##### Tampilan Awal:
-![Screenshot (2883)](https://github.com/andikaneviantoro/Struktur-Data-Assigment/assets/98001415/11b666b9-efc8-4f86-8f4f-f05547b74504)
+<img width="960" alt="Screenshot 2024-03-26 195330" src="https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/20dee375-6b3c-4ca2-812d-cbf70407be62">
 
 ##### 1. Tambahkan produk Azarine dengan harga 65000 diantara Somethinc dan Skintific:
-![Screenshot (2884)](https://github.com/andikaneviantoro/Struktur-Data-Assigment/assets/98001415/ff83c036-c54e-4a96-8bd1-28f9fe178e47)
+<img width="960" alt="Screenshot 2024-03-26 195442" src="https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/306d716c-f2f5-466d-b96c-72c25057d7db">
 
 ##### 2. Hapus produk wardah:
 ![Screenshot (2885)](https://github.com/andikaneviantoro/Struktur-Data-Assigment/assets/98001415/6ca7b8ae-158f-4c54-ad70-6479e915b724)
 
 ##### 3, Update produk Hanasui menjadi Cleora dengan harga 55.000
-![Screenshot (2886)](https://github.com/andikaneviantoro/Struktur-Data-Assigment/assets/98001415/12f63963-5767-4e45-a11d-8b256b9fa60e)
+<img width="960" alt="Screenshot 2024-03-26 195507" src="https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/6ba97de9-c5da-41d0-85e1-8130cd15bb04">)
 
 ##### 4. Tampilan Akhir Menu
-![Screenshot (2887)](https://github.com/andikaneviantoro/Struktur-Data-Assigment/assets/98001415/982b7355-9d56-4da5-bf43-65d5ab29c6e8)
+<img width="960" alt="Screenshot 2024-03-26 195606" src="https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/83c0581e-e68c-4f9e-b928-463ead922a21">
 
 
 Program C++ di atas adalah aplikasi manajemen data produk yang menggunakan struktur data linked list. Program ini memungkinkan pengguna untuk menambah, menghapus, mengupdate, serta menampilkan data produk. Pengguna dapat memilih operasi yang diinginkan melalui menu yang disediakan. Setiap operasi yang dilakukan akan segera memperbarui tampilan data produk. Program akan berjalan hingga pengguna memilih untuk keluar. Program yang diberikan adalah aplikasi manajemen produk untuk toko skincare di Purwokerto. Aplikasi ini menggunakan struktur data linked list untuk menyimpan informasi produk, termasuk nama produk dan harganya.
