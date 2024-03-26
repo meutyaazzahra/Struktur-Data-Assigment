@@ -19,22 +19,22 @@ Berikut merupakan operasi-operasi yang dapat dilakukan pada linked list:
 Operasi penciptaan simpul pada linked list melibatkan pembuatan simpul pertama dari linked list, yang disebut sebagai \textit{head} atau \textid{node} pertama. Langkah-langkahnya meliputi memberikan nilai awal terhadap variabel pointer dan inisialisasi linked list. Jika kondisi linked list masih kosong, maka simpul baru akan diciptakan. Langkah-langkah ini merupakan tahap awal dalam membangun linked list sebelum melakukan operasi-operasi lain seperti penyisipan, pennghapusan, dan penelusuran.
 2.	Operasi penghapusan pada linked list
 Untuk menghancurkan simpul pada linked list, Langkah-langkahnya meliputi:
-1. Mencari simpul yang akan dihapus
-2.	Mengubah pointer simpul sebelum simpul yang akan dihapus
-3.	Menghapus simpul yang ditunjuk
+- Mencari simpul yang akan dihapus
+-	Mengubah pointer simpul sebelum simpul yang akan dihapus
+-	Menghapus simpul yang ditunjuk
 Dalam melakukan penghapusan simpul, perlu diperhatikan bahwa simpul yang dihapus harus dihapus dari memori agar tidak menimbulkan memory leak. Oleh karena itu, setelah simpul dihapus, memori yang digunakan oleh simpul tersebut harus dikembalikam ke sistem operasi.
 4.	Inisialisasi linked list
 Langkah-langkahnya meliputi:
-   •	Membuat variabel pointer yang menunjuk ke simpul pertama (head) dengan nilai null
-   •	Menentukan tipe data yang akan disimpan dalam linked list
-   •	Menentukan jumlah elemen awal dalam linked list
-   •	Mengisi linked list dengan elemen-elemen awal jika ada
+-	Membuat variabel pointer yang menunjuk ke simpul pertama (head) dengan nilai null
+-	Menentukan tipe data yang akan disimpan dalam linked list
+-	Menentukan jumlah elemen awal dalam linked list
+-	Mengisi linked list dengan elemen-elemen awal jika ada
 Dalam melakukan inisialisasi linked list, perlu diperhatikan bahwa variabel pointer harus diatur dengan nilai null agar tidak menunjuk ke alamt memori yang tidak valid. Selain itu, tipe data dan jumlah elemen awal dalam linked list juga harus ditentukan terlebih dahulu sebelum melakukan inisialisasi.
 Setelah melakukan inisialisasi linked list, beberapa operasi yang harus dilakukan meliputi:
-   •	Pemeriksaan list kosong
-   •	Penyisipan simpul sebagai simpul pertama setelah simpul tertentu sebagai simpul terakhir
-   •	Menghapus simpul
-   •	Penelusuran linked list
+-	Pemeriksaan list kosong
+-	Penyisipan simpul sebagai simpul pertama setelah simpul tertentu sebagai simpul terakhir
+-	Menghapus simpul
+-	Penelusuran linked list
 Dengan melakukan operasi-operasi ini setelah inisialisasi linked list, anda dapat memastikan bahwa linked list telah diinisialisasi dengan benar dan siap untuk melakukan operasi-operasi lain seperti penyisipan, penghapusan, dan penelusuran.
 Linked list memiliki kelebihan dan kekurangan seagai berikut:
 Kelebihan:
