@@ -19,10 +19,9 @@ Berikut merupakan operasi-operasi yang dapat dilakukan pada linked list:
 Operasi penciptaan simpul pada linked list melibatkan pembuatan simpul pertama dari linked list, yang disebut sebagai \textit{head} atau \textid{node} pertama. Langkah-langkahnya meliputi memberikan nilai awal terhadap variabel pointer dan inisialisasi linked list. Jika kondisi linked list masih kosong, maka simpul baru akan diciptakan. Langkah-langkah ini merupakan tahap awal dalam membangun linked list sebelum melakukan operasi-operasi lain seperti penyisipan, pennghapusan, dan penelusuran.
 2.	Operasi penghapusan pada linked list
 Untuk menghancurkan simpul pada linked list, Langkah-langkahnya meliputi:
-
-   •	Mencari simpul yang akan dihapus
-   •	Mengubah pointer simpul sebelum simpul yang akan dihapus
-   •	Menghapus simpul yang ditunjuk
+1. Mencari simpul yang akan dihapus
+2.	Mengubah pointer simpul sebelum simpul yang akan dihapus
+3.	Menghapus simpul yang ditunjuk
 Dalam melakukan penghapusan simpul, perlu diperhatikan bahwa simpul yang dihapus harus dihapus dari memori agar tidak menimbulkan memory leak. Oleh karena itu, setelah simpul dihapus, memori yang digunakan oleh simpul tersebut harus dikembalikam ke sistem operasi.
 4.	Inisialisasi linked list
 Langkah-langkahnya meliputi:
