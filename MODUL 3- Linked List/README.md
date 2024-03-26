@@ -74,12 +74,12 @@ Program yang diberikan adalah implementasi dari Doubly Linked List menggunakan C
 ## Unguided 
 
 ### 1. Buatlah program menu Single Linked List Non-Circular untuk menyimpan Nama dan usia mahasiswa, dengan menggunakan inputan dari user. Lakukan operasi berikut:
-a. Masukkan data sesuai urutan berikut. (Gunakan insert depan, belakang atau tengah). Data pertama yang dimasukkan adalah nama dan usia anda.
-b. Hapus data Akechi
-c. Tambahkan data berikut diantara John dan Jane : Futaba 18
-d. Tambahkan data berikut diawal : Igor 20
-e. Ubah data Michael menjadi : Reyn 18
-f. Tampilkan seluruh data
+### a. Masukkan data sesuai urutan berikut. (Gunakan insert depan, belakang atau tengah). Data pertama yang dimasukkan adalah nama dan usia anda.
+### b. Hapus data Akechi
+### c. Tambahkan data berikut diantara John dan Jane : Futaba 18
+### d. Tambahkan data berikut diawal : Igor 20
+### e. Ubah data Michael menjadi : Reyn 18
+### f. Tampilkan seluruh data
 
 #### Output:
 a. Masukkan data sesuai urutan berikut. (Gunakan insert depan, belakang atau tengah). Data pertama yang dimasukkan adalah nama dan usia anda.
