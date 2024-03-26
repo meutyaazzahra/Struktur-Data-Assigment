@@ -719,17 +719,23 @@ int main() {
 ```
 
 #### Output:
-a. <img width="960" alt="Screenshot 2024-03-26 193547" src="https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/18737f57-f2d5-491d-94d8-b943c8f87ea7">
+a. Masukkan data sesuai urutan berikut. (Gunakan insert depan, belakang atau tengah). Data pertama yang dimasukkan adalah nama dan usia anda.
+<img width="960" alt="Screenshot 2024-03-26 193547" src="https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/18737f57-f2d5-491d-94d8-b943c8f87ea7">
 
-b. <img width="960" alt="Screenshot 2024-03-26 193658" src="https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/6348167b-1363-49ae-a594-976ba6cc2308">
+b. Hapus data Akechi
+<img width="960" alt="Screenshot 2024-03-26 193658" src="https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/6348167b-1363-49ae-a594-976ba6cc2308">
 
-c. <img width="960" alt="Screenshot 2024-03-26 193850" src="https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/14d75ae6-c1e6-4d90-89f4-ee498eb60dd3">
+c. Tambahkan data berikut diantara John dan Jane : Futaba 18
+<img width="960" alt="Screenshot 2024-03-26 193850" src="https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/14d75ae6-c1e6-4d90-89f4-ee498eb60dd3">
 
-d. <img width="960" alt="Screenshot 2024-03-26 193945" src="https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/7dbccd32-342d-4e76-843f-3f6c22690526">
+d. Tambahkan data berikut diawal : Igor 20
+<img width="960" alt="Screenshot 2024-03-26 193945" src="https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/7dbccd32-342d-4e76-843f-3f6c22690526">
 
-e. <img width="960" alt="Screenshot 2024-03-26 194028" src="https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/5f3f3fc3-7b3b-45a1-8598-a5b006f8ea5e">
+e. Ubah data Michael menjadi : Reyn 18
+<img width="960" alt="Screenshot 2024-03-26 194028" src="https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/5f3f3fc3-7b3b-45a1-8598-a5b006f8ea5e">
 
-f. <img width="960" alt="Screenshot 2024-03-26 194106" src="https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/978f78cc-9ebd-4146-b7eb-94733fcd4c0b">
+f. Tampilkan seluruh data
+<img width="960" alt="Screenshot 2024-03-26 194106" src="https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/978f78cc-9ebd-4146-b7eb-94733fcd4c0b">
 
 ### Deskripsi Program:
 Program yang diberikan adalah sebuah aplikasi sederhana untuk mengelola daftar mahasiswa menggunakan struktur data linked list. Program ini memungkinkan pengguna untuk melakukan beberapa operasi, seperti menampilkan semua data mahasiswa, menghapus data mahasiswa dengan nama tertentu, menambahkan data mahasiswa di antara dua mahasiswa tertentu, menambahkan data mahasiswa di awal daftar, serta mengubah data mahasiswa berdasarkan nama.
