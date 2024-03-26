@@ -522,8 +522,8 @@ Program yang diberikan adalah implementasi dari Doubly Linked List menggunakan C
 ####    f. Tampilkan seluruh data
 
 ```C++
-//ANDIKA NEVIANTORO
-//2311102167
+//MEUTYA AZZAHRA EFENDI
+//2311102166
 
 
 #include <iostream>
@@ -656,7 +656,7 @@ int main() {
     LinkedList daftar;
 
     // Memasukkan data
-    daftar.sisipkan("Andika", 17);
+    daftar.sisipkan("Meutya", 19);
     daftar.sisipkan("John", 19);
     daftar.sisipkan("Jane", 20);
     daftar.sisipkan("Michael", 18);
@@ -734,9 +734,7 @@ e. ![Screenshot (2881)](https://github.com/andikaneviantoro/Struktur-Data-Assigm
 f. ![Screenshot (2882)](https://github.com/andikaneviantoro/Struktur-Data-Assigment/assets/98001415/e3013f3a-645c-4eed-94c4-d3d31f24272b)
 
 
-Program ini memungkinkan pengguna untuk melakukan beberapa operasi, termasuk menambahkan, menghapus, dan mengubah data mahasiswa, serta menampilkan seluruh data yang telah dimasukkan.
-Implementasi dilakukan melalui kelas LinkedList, yang menyediakan fungsi-fungsi dasar untuk operasi-operasi pada linked list seperti menyisipkan data di akhir daftar, menampilkan semua data, menghapus data berdasarkan nama, menyisipkan data setelah node tertentu, menyisipkan data di awal daftar, dan mengubah data berdasarkan nama.
-Fungsi main() berfungsi sebagai antarmuka pengguna, dimana pengguna dapat memilih opsi dari menu yang disediakan untuk melakukan operasi tertentu seperti menampilkan data, menghapus data, menambahkan data di antara node tertentu, menambahkan data di awal daftar, mengubah data, atau keluar dari program. Setelah setiap operasi, program akan menampilkan data mahasiswa yang telah dikelola.
+Program yang diberikan adalah sebuah aplikasi sederhana untuk mengelola daftar mahasiswa menggunakan struktur data linked list. Program ini memungkinkan pengguna untuk melakukan beberapa operasi, seperti menampilkan semua data mahasiswa, menghapus data mahasiswa dengan nama tertentu, menambahkan data mahasiswa di antara dua mahasiswa tertentu, menambahkan data mahasiswa di awal daftar, serta mengubah data mahasiswa berdasarkan nama.
 
 
 ### 2. Soal mengenai Double Linked List Modifikasi Guided Double Linked List dilakukan dengan penambahan operasi untuk menambah data, menghapus, dan update di tengah / di urutan tertentu yang diminta. Selain itu, buatlah agar tampilannya menampilkan Nama produk dan harga.
@@ -772,8 +770,8 @@ Fungsi main() berfungsi sebagai antarmuka pengguna, dimana pengguna dapat memili
 ### Cleora 55.000
 
 ```C++
-//ANDIKA NEVIANTORO
-//2311102167
+//MEUTYA AZZAHRA EFENDI
+//2311102166
 
 
 #include <iostream>
@@ -1018,7 +1016,7 @@ int main() {
 ![Screenshot (2887)](https://github.com/andikaneviantoro/Struktur-Data-Assigment/assets/98001415/982b7355-9d56-4da5-bf43-65d5ab29c6e8)
 
 
-Program C++ di atas adalah aplikasi manajemen data produk yang menggunakan struktur data linked list. Program ini memungkinkan pengguna untuk menambah, menghapus, mengupdate, serta menampilkan data produk. Pengguna dapat memilih operasi yang diinginkan melalui menu yang disediakan. Setiap operasi yang dilakukan akan segera memperbarui tampilan data produk. Program akan berjalan hingga pengguna memilih untuk keluar.
+Program C++ di atas adalah aplikasi manajemen data produk yang menggunakan struktur data linked list. Program ini memungkinkan pengguna untuk menambah, menghapus, mengupdate, serta menampilkan data produk. Pengguna dapat memilih operasi yang diinginkan melalui menu yang disediakan. Setiap operasi yang dilakukan akan segera memperbarui tampilan data produk. Program akan berjalan hingga pengguna memilih untuk keluar. Program yang diberikan adalah aplikasi manajemen produk untuk toko skincare di Purwokerto. Aplikasi ini menggunakan struktur data linked list untuk menyimpan informasi produk, termasuk nama produk dan harganya.
 
 
 ## Kesimpulan
