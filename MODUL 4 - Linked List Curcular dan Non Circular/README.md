@@ -135,5 +135,7 @@ Kesimpulannya, Circular Linked List adalah struktur data yang berguna untuk memo
 
 ## Referensi
 [1] Michael T. Goodrich, R. T. (2011). Data Structures & Algorithms in C++. Wiley.
+
 [2] Dr. Joseph Teguh Santoso, S. K. (2011). STRUKTUR DATA dan ALGORTIMA. YAYASAN PRIMA AGUS TEKNIK.
+
 [3] ARRAFFI, A. (2019, Maret 30). PENGERTIAN LINIER DALAM STRUKTUR DATA MAJEMUK. Retrieved from OSF.
