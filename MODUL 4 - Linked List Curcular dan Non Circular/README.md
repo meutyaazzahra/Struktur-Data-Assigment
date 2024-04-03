@@ -6,7 +6,7 @@
 
 ### Circular Linked List
 Sebuah circularly linked list memiliki jenis node yang sama dengan sebuah singly linked list. Artinya, setiap node dalam circularly linked list memiliki pointer next dan nilai elemen. Namun, daripada memiliki kepala (head) atau ekor (tail), node-node dari circularly linked list dihubungkan menjadi sebuah siklus. Jika kita menelusuri node-node dari circularly linked list dari mana pun dengan mengikuti pointer next, pada akhirnya kita akan mengunjungi semua node dan kembali ke node dari mana kita mulai. Meskipun circularly linked list tidak memiliki awal atau akhir, kita tetap memerlukan beberapa node yang ditandai sebagai node khusus, yang kita sebut sebagai kursor. Node kursor memungkinkan kita untuk memiliki tempat awal jika kita perlu menelusuri circularly linked list. Ada dua posisi yang penting dalam sebuah circular list. Yang pertama adalah elemen yang dirujuk oleh kursor, yang disebut sebagai belakang, dan elemen yang segera mengikuti ini dalam urutan siklik, yang disebut sebagai depan. Meskipun mungkin terdengar aneh untuk memikirkan sebuah circular list memiliki depan dan belakang, perhatikan bahwa, jika kita memotong link antara node yang dirujuk oleh kursor dan penerus langsung dari node ini, hasilnya adalah sebuah singly linked list dari node depan hingga node belakang.[1]
-![Screenshot 2024-04-01 121335](https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/86c4860a-d226-4ee9-a708-9ff4d5964313)
+![Screenshot 2024-04-03 093633](https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/89baf619-fb17-4f6b-a32b-b8ee71e00214)
 
 ## Definisi fungsi-fungsi berikut untuk linked list circular:
 -Front():Kembalikan elemen yang dirujuk oleh kursor; kesalahan terjadi jika daftar kosong.
