@@ -81,33 +81,33 @@ e. Tampilan Operasi Tampil Data
 
 ### 3. Lakukan perintah berikut:
 a. Tambahkan data berikut diantara Farrel dan Dennis:
-   Wati  2330004
-![image](https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/dfc85df9-adc1-42cd-a026-671ffadba30f)
+   (Wati  2330004)
+![Screenshot 2024-04-03 112258](https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/1366c127-d84a-4a72-b339-db4b69b20871)
 
 b. Hapus data Dennis
 ![Screenshot 2024-04-03 112609](https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/7c90aa0a-1a20-42b2-b172-49d44a99bdfb)
 
 c. Tambahkan data berikut di awal:
-   Owi  2330000
+   (Owi  2330000)
 ![Screenshot 2024-04-03 112702](https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/2984c898-acdd-49f2-a903-eda9dd15a43d)
 
 d. Tambahkan data berikut di akhir:
-   Daavid 23300100
+   (David 23300100)
 ![Screenshot 2024-04-03 112740](https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/b43fc24e-b924-4f1f-a9b0-8a12bd7f02d6)
 
 e. Ubah data Udin menjadi data berikut:
-   Idin  23300045
+   (Idin  23300045)
 ![Screenshot 2024-04-03 112909](https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/ddf76e9d-f8c4-49ff-b66e-ec044f516b51)
 
 f. Ubah data terakhir menjadi berikut:
-   Lucy  233000101
+   (Lucy  233000101)
 ![Screenshot 2024-04-03 113245](https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/a35d0810-7815-48be-8028-76fca67dcd41)
 
 g. Hapus data awal
 ![Screenshot 2024-04-03 113320](https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/dc2b7ca7-1058-4fcc-a180-44493343238d)
 
 h. Ubah data awal menjadi berikut:
-   Bagas  2330002
+   (Bagas  2330002)
 ![Screenshot 2024-04-03 113356](https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/c47a5527-08cf-4261-ad9c-b601bb1597d3)
 
 i. Hapus data akhir
