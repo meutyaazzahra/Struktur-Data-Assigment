@@ -50,7 +50,7 @@ Buatlah program menu Linked List Non Circular untuk menyimpan Nama dan NIM Mahas
 ### c. Implementasikan fungsi untuk menambahkan data baru, menghapus data, mencari data, berdasarkan NIM, dan mencari data berdasarkan rentang nilai (80-90)
 
 #### Output:
-1. Tambah Data
+## 1. Tambah Data
 ![Screenshot 2024-04-17 155245](https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/d09f0bc2-df34-41d8-a231-ccc1721ccf9a)
 ![Screenshot 2024-04-17 155257](https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/a1de864d-3234-4923-a7ef-a9587a98ae44)
 ![Screenshot 2024-04-17 155309](https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/6bcb56db-7077-4b27-bcf8-c51e1d740dbc)
