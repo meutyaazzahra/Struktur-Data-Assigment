@@ -55,19 +55,19 @@ Buatlah program menu Linked List Non Circular untuk menyimpan Nama dan NIM Mahas
 ![Screenshot 2024-04-17 155257](https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/a1de864d-3234-4923-a7ef-a9587a98ae44)
 ![Screenshot 2024-04-17 155309](https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/6bcb56db-7077-4b27-bcf8-c51e1d740dbc)
 
-2. Hapus Data
+## 2. Hapus Data
 ![Screenshot 2024-04-17 155323](https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/ea17f37d-8b30-4363-b3b5-1d547b4605b0)
 
-4. Cari Berdasarkan NIM
+## 3. Cari Berdasarkan NIM
 ![Screenshot 2024-04-17 155344](https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/ed517e73-5346-4b0f-95a1-3a50db81879b)
 
-5. Cari Berdasarkan Rentang Nilai
+## 4. Cari Berdasarkan Rentang Nilai
 ![Screenshot 2024-04-17 155414](https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/10d2fa9f-7b25-408f-a1c6-fd59cef63426)
 
-6. Tampilan Semua Data
+## 5. Tampilan Semua Data
 ![Screenshot 2024-04-17 155442](https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/aa9a4b8b-d99c-4a59-a98c-2e8fb5f2f923)
 
-7. Keluar
+## 6. Keluar
 ![Screenshot 2024-04-17 155506](https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/43a8669f-ed6f-47f3-acc3-b8a49d0234de)
 
 ## Deskripsi Program
