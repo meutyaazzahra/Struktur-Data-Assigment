@@ -6,20 +6,22 @@
 
 ### Pengertian Hash Table
 Fungsi hash digunakan untuk mengubah kunci menjadi indeks. Idealnya, fungsi hash harus memetakan setiap kunci yang mungkin ke indeks slot yang unik, tetapi sulit untuk dicapai dalam praktiknya. 
-Diberikan kumpulan elemen, fungsi hash yang memetakan setiap item ke dalam slot unik disebut sebagai fungsi hash sempurna. Jika kita tahu elemen dan koleksinya tidak akan pernah   berubah,  maka dimungkinkan untuk membangun fungsi hash yang sempurna. Sayangnya, mengingat kumpulan elemen yang berubah-ubah, tidak ada cara sistematis untuk membangun fngsi hash yang sempurna. Untungnya, kita tidak memerlukan fungsi hash yang sempurna untuk tetap mendapatkan efisiensi kinerja
+Diberikan kumpulan elemen, fungsi hash yang memetakan setiap item ke dalam slot unik disebut sebagai fungsi hash sempurna. Jika kita tahu elemen dan koleksinya tidak akan pernah   berubah,  maka dimungkinkan untuk membangun fungsi hash yang sempurna. Sayangnya, mengingat kumpulan elemen yang berubah-ubah, tidak ada cara sistematis untuk membangun fngsi hash yang sempurna. Untungnya, kita tidak memerlukan fungsi hash yang sempurna untuk tetap mendapatkan efisiensi kinerja. [1]
 
 ### Bagaimana memilih fungsi hash?
 Masalah dasar yang terkait dengan pembuatan hash table adalah:
--	Fungsi hash yang efisien harus dirancang sehingga mendistribusikan nilai indeks dari ojek yang disisipkan secara seragam di seluruh tabel
--	Flgoritma resolusi tabrakan yang efisien harus dirancang sedemikian rupa sehingga menghitung indeks alternatif untuk kunci yang indeks hashnya sesuai dengan lokasi yang sebelumnya dimasukkan dalam hash table
--	kita yang memilih fungsi hash yang dapat dihitung dengan cepat, mengembalikan nilai dalam rentang lokasi di tabel kita dan meminimalkan tabrakan
+-	Fungsi hash yang efisien harus dirancang sehingga mendistribusikan nilai indeks dari ojek yang disisipkan secara seragam di seluruh tabel.
+-	Flgoritma resolusi tabrakan yang efisien harus dirancang sedemikian rupa sehingga menghitung indeks alternatif untuk kunci yang indeks hashnya sesuai dengan lokasi yang sebelumnya dimasukkan dalam hash table.
+-	kita yang memilih fungsi hash yang dapat dihitung dengan cepat, mengembalikan nilai dalam rentang lokasi di tabel kita dan meminimalkan tabrakan.
+[1]
 
 ### Karakteristik Fungsi Hash yang Baik
--	 minimalkan tabrakan
--	 mudah dan cepat untuk menghitung
--	 distribusikan nilai kunci secara merata di hash table
--	 gunakan semua informasi yang terjadi di kunci
--	 memiliki factor beban tinggi untuk satu set kunci tertentu
+-	 Minimalkan tabrakan
+-	 Mudah dan cepat untuk menghitung
+-	 Distribusikan nilai kunci secara merata di hash table
+-	 Gunakan semua informasi yang terjadi di kunci
+-	 Memiliki factor beban tinggi untuk satu set kunci tertentu
+[1]
 
 ## Guided 
 
@@ -55,14 +57,18 @@ Buatlah program menu Linked List Non Circular untuk menyimpan Nama dan NIM Mahas
 
 2. Hapus Data
 ![Screenshot 2024-04-17 155323](https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/ea17f37d-8b30-4363-b3b5-1d547b4605b0)
+
+4. Cari Berdasarkan NIM
 ![Screenshot 2024-04-17 155344](https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/ed517e73-5346-4b0f-95a1-3a50db81879b)
+
+5. Cari Berdasarkan Rentang Nilai
 ![Screenshot 2024-04-17 155414](https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/10d2fa9f-7b25-408f-a1c6-fd59cef63426)
+
+6. Tampilan Semua Data
 ![Screenshot 2024-04-17 155442](https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/aa9a4b8b-d99c-4a59-a98c-2e8fb5f2f923)
+
+7. Keluar
 ![Screenshot 2024-04-17 155506](https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/43a8669f-ed6f-47f3-acc3-b8a49d0234de)
-
-
-
-
 
 ## Deskripsi Program
 Program ini adalah implementasi sederhana dari tabel hash dalam C++. Tabel hash digunakan untuk menyimpan data mahasiswa, yang terdiri dari nama, NIM, dan nilai. Program ini memungkinkan pengguna untuk menambahkan data mahasiswa, mencari data berdasarkan NIM, menghapus data berdasarkan NIM, mencari data berdasarkan rentang nilai, dan menampilkan semua data mahasiswa yang tersimpan.
