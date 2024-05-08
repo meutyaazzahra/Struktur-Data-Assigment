@@ -60,7 +60,7 @@ Kalimat : telkom
 Kalimat tersebut adalah bukan polindrom
 
 #### Output:
-
+![Screenshot 2024-05-08 123207](https://github.com/meutyaazzahra/test/assets/161669000/7a45f516-8479-4c65-9bcb-ee63636f0dd4)
 
 ## Deskripsi Program
 
@@ -72,8 +72,10 @@ Kalimat : Telkom Purwokerto
 Hasil : otrekowruP mokleT
 
 ### Output
+![Screenshot 2024-05-08 123704](https://github.com/meutyaazzahra/test/assets/161669000/78a73392-c0ac-4ee4-8e61-f06f3a56697b)
 
 ## Deskripsi Program
+
 ## Kesimpulan
 Tumpukan (stack) adalah struktur data yang sederhana namun sangat penting dalam pemrograman. Konsep utamanya adalah "last in, first out" (LIFO) atau "first in, last out" (FILO), yang berarti elemen terakhir yang dimasukkan adalah yang pertama kali dikeluarkan. Dalam kehidupan sehari-hari, tumpukan dapat diibaratkan dengan tumpukan piring di kafetaria, di mana piring terakhir yang ditambahkan adalah yang pertama kali diambil.
 
