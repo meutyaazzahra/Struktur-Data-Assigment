@@ -105,6 +105,7 @@ Dengan demikian, program tersebut mengimplementasikan algoritma untuk menghapus 
 Contoh
 
 Kalimat : Telkom Purwokerto
+
 Hasil : otrekowruP mokleT
 
 ### Output
