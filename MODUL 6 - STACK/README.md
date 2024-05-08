@@ -52,9 +52,11 @@ Dengan demikian, program tersebut menyediakan fungsionalitas dasar untuk manajem
 Contoh
 
 Kalimat : ini
+
 Kalimat tersebut adalah polindrom
 
 Kalimat : telkom
+
 Kalimat tersebut adalah bukan polindrom
 
 #### Output:
