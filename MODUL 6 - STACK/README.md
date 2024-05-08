@@ -9,19 +9,32 @@
   Definisi tumpukan adalah daftar terurut di mana penyisipan dan penghapusan dilakukan di satu ujung, yaitu atas. Elemen terakhir yang dimasukkan adalah yang pertama dihapus. Oleh karena itu, ini disebut dafar Last in First Out (LIFO) atau First in Last Out (FILO).
   Nama khusus diberikan untuk dua perubahan yang dapat dilakukan pada tumpukan. Ketika sebuah elemen dimasukkan ke dalam tumpukan, konsepnya disebut push dan Ketika sebuah elemen dikeluarkan dari tumpukan, konsepnya disebut pop. Mencoba mengeluarkan tumpukan kosong disebut underflow dan mencoba mendorong elemen dari tumpukan penuh disebut overflow. Umumnya, kita memperlakuan mereka sebagai pengecualian. Sebagai contoh, pertimbangkan snapshot dari tumpukan.
 
-### Bagaimana memilih fungsi hash?
-Masalah dasar yang terkait dengan pembuatan hash table adalah:
--	Fungsi hash yang efisien harus dirancang sehingga mendistribusikan nilai indeks dari ojek yang disisipkan secara seragam di seluruh tabel.
--	Flgoritma resolusi tabrakan yang efisien harus dirancang sedemikian rupa sehingga menghitung indeks alternatif untuk kunci yang indeks hashnya sesuai dengan lokasi yang sebelumnya dimasukkan dalam hash table.
--	kita yang memilih fungsi hash yang dapat dihitung dengan cepat, mengembalikan nilai dalam rentang lokasi di tabel kita dan meminimalkan tabrakan.
-[1]
+### Tumpukan (Stack) ADTBagaimana memilih fungsi hash?
+Operasi berikut membuat tumpukan menjadi ADT. Untuk kesederhanaan, asumsikan data adalah tipe integer.
+## Operasi tumpukan utama
+-	Push (int data) : Menyisipkan data ke tumpukan
+-	int Pop() : menghapus dan mengembalikan elemen terakhir yang dimasukkan dari tumpukan\
+## Operasi tumpukan tambahan 
+-	int Top() : mengembalikan elemen yang terakhir dimasukkan  tanpa menghapusnya
+-	int Size() : mengembalikan jumlah elemen yang disimpan dalam tumpukan
+-	int IsEmptyTumpukan(): menunjukkan apakah data elemen yang disimpan dalam tumpukan atau tidak
+-	int IsFullTumpukan() : menunjukkan apakah tumpukan penuh atau tidak
 
-### Karakteristik Fungsi Hash yang Baik
--	 Minimalkan tabrakan
--	 Mudah dan cepat untuk menghitung
--	 Distribusikan nilai kunci secara merata di hash table
--	 Gunakan semua informasi yang terjadi di kunci
--	 Memiliki factor beban tinggi untuk satu set kunci tertentu
+### Aplikasi
+Berikut ini adalah beberapa aplikasi dimana stack memainkan perang penting
+1.	Aplikasi Langsung
+-	keseimbangan symbol
+-	konversi infix-to-postfix
+-	evaluasi ekspresi postfix
+-	menerapkan panggilan fungsi (termasuk rekursi)
+-	menemukan rentang
+-	riawat kunjungan halaman di browser
+-	urungkan urutan dalam editor teks
+-	mencocokkan Tag dalam HTML dan XML
+2.	Aplikasi tidak langsung
+-	Struktur data bantu untuk algoritma lain (contoh: algoritma traversal pohon)
+-	Komponen struktur data lain (contoh: simulasi antrian, lihat antrian Bab)
+
 [1]
 
 ## Guided 
@@ -33,14 +46,6 @@ Masalah dasar yang terkait dengan pembuatan hash table adalah:
 
 ### Deskripsi Program:
 Program yang diberikan adalah implementasi sederhana dari tabel hash (hash table) dalam bahasa pemrograman C++. Tabel hash adalah struktur data yang digunakan untuk menyimpan pasangan kunci-nilai (key-value) di mana pencarian, penghapusan, dan penambahan elemen memiliki kompleksitas waktu rata-rata O(1), asumsi bahwa fungsi hashnya baik.
-
-### 2. GUIDED 2
-
-#### Output :
-![Screenshot 2024-04-17 062520](https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/c18a5836-609e-4078-98ca-7de444da184b)
-
-### Deskripsi Program:
-Program ini adalah implementasi sederhana dari tabel hash menggunakan chaining dalam C++. Tabel hash digunakan untuk menyimpan pasangan nama dan nomor telepon karyawan. Program memungkinkan penambahan, pencarian, dan penghapusan entri, serta pencetakan isi tabel hash.
 
 ## Unguided 
 Buatlah program menu Linked List Non Circular untuk menyimpan Nama dan NIM Mahasiswa, dengan menggunakan input dari user.
@@ -75,11 +80,13 @@ Buatlah program menu Linked List Non Circular untuk menyimpan Nama dan NIM Mahas
 Program ini adalah implementasi sederhana dari tabel hash dalam C++. Tabel hash digunakan untuk menyimpan data mahasiswa, yang terdiri dari nama, NIM, dan nilai. Program ini memungkinkan pengguna untuk menambahkan data mahasiswa, mencari data berdasarkan NIM, menghapus data berdasarkan NIM, mencari data berdasarkan rentang nilai, dan menampilkan semua data mahasiswa yang tersimpan.
 
 ## Kesimpulan
-Dalam pengertian hash table, fungsi hash digunakan untuk mengubah kunci menjadi indeks, di mana idealnya setiap kunci harus dipetakan ke indeks slot yang unik. Meskipun konsep fungsi hash sempurna diinginkan, dalam praktiknya sulit untuk dicapai karena kumpulan elemen yang berubah-ubah. Meskipun begitu, kita tidak memerlukan fungsi hash yang sempurna untuk tetap mendapatkan efisiensi kinerja yang baik.
+Tumpukan (stack) adalah struktur data yang sederhana namun sangat penting dalam pemrograman. Konsep utamanya adalah "last in, first out" (LIFO) atau "first in, last out" (FILO), yang berarti elemen terakhir yang dimasukkan adalah yang pertama kali dikeluarkan. Dalam kehidupan sehari-hari, tumpukan dapat diibaratkan dengan tumpukan piring di kafetaria, di mana piring terakhir yang ditambahkan adalah yang pertama kali diambil.
 
-Dalam memilih fungsi hash, terdapat beberapa masalah dasar yang harus diatasi. Pertama, fungsi hash harus didesain sedemikian rupa sehingga mendistribusikan nilai indeks secara seragam di seluruh tabel hash. Kedua, algoritma resolusi tabrakan harus efisien, yaitu mampu menghitung indeks alternatif untuk kunci yang memiliki indeks hash yang sama dengan lokasi yang sebelumnya dimasukkan dalam hash table. Selain itu, fungsi hash yang baik harus dapat dihitung dengan cepat, menghasilkan distribusi nilai kunci yang merata di hash table, menggunakan semua informasi yang terkandung dalam kunci, dan memiliki faktor beban yang tinggi untuk satu set kunci tertentu.
+Beberapa operasi dasar yang terkait dengan tumpukan adalah push (menambahkan elemen ke tumpukan), pop (menghapus dan mengambil elemen teratas dari tumpukan), top (mengambil elemen teratas tanpa menghapusnya), size (mengembalikan jumlah elemen dalam tumpukan), isEmpty (mengecek apakah tumpukan kosong), dan isFull (mengecek apakah tumpukan penuh).
 
-Kesimpulannya, fungsi hash yang baik adalah fungsi yang meminimalkan tabrakan, mudah dan cepat untuk dihitung, mendistribusikan nilai kunci secara merata di hash table, menggunakan semua informasi dalam kunci, dan mampu menangani beban tinggi untuk set kunci tertentu. Dengan memperhatikan karakteristik ini, kita dapat merancang fungsi hash yang efisien untuk digunakan dalam pembuatan hash table.
+Tumpukan memiliki banyak aplikasi baik secara langsung maupun tidak langsung. Aplikasi langsung termasuk dalam pemecahan masalah sehari-hari seperti keseimbangan simbol, konversi ekspresi matematika, evaluasi ekspresi, pengelolaan riwayat halaman di browser, dan lain-lain. Sedangkan aplikasi tidak langsung meliputi peran sebagai struktur data bantu dalam algoritma lain seperti algoritma traversal pohon, atau sebagai komponen dalam struktur data lain seperti simulasi antrian.
+
+Dengan kesederhanaannya, tumpukan menjadi salah satu konsep yang fundamental dalam ilmu komputer dan memiliki peran yang signifikan dalam berbagai aplikasi perangkat lunak.
 
 ## Referensi
-[1] Dr. Joseph Teguh Santoso, S. K. (2011). STRUKTUR DATA dan ALGORTIMA (Bagian 2). YAYASAN PRIMA AGUS TEKNIK.
+[1] Dr. Joseph Teguh Santoso, S. K. (2011). STRUKTUR DATA dan ALGORTIMA (Bagian 1). YAYASAN PRIMA AGUS TEKNIK.
