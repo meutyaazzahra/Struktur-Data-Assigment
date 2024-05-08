@@ -42,43 +42,37 @@ Berikut ini adalah beberapa aplikasi dimana stack memainkan perang penting
 ### 1. GUIDED 1
 
 #### Output :
-![Screenshot 2024-04-17 062453](https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/547c7b1a-fa3a-4db5-b408-4893f16de9e0)
+![Screenshot 2024-05-08 112817](https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/1883a1a8-3dbc-4781-927c-90075a77d4af)
 
 ### Deskripsi Program:
-Program yang diberikan adalah implementasi sederhana dari tabel hash (hash table) dalam bahasa pemrograman C++. Tabel hash adalah struktur data yang digunakan untuk menyimpan pasangan kunci-nilai (key-value) di mana pencarian, penghapusan, dan penambahan elemen memiliki kompleksitas waktu rata-rata O(1), asumsi bahwa fungsi hashnya baik.
+Program di atas adalah implementasi sederhana dari tumpukan (stack) menggunakan array dalam bahasa C++. Program ini menciptakan sebuah tumpukan untuk menyimpan daftar buku dengan batas maksimal sebanyak 5 buku. Dengan menggunakan fungsi-fungsi seperti push, pop, peek, count, change, dan destroy, program ini memungkinkan pengguna untuk melakukan operasi dasar pada tumpukan, seperti menambah, menghapus, mengubah, dan mencetak buku dalam tumpukan.
+Dengan demikian, program tersebut menyediakan fungsionalitas dasar untuk manajemen buku dalam tumpukan dengan menggunakan array sebagai struktur datanya.
 
 ## Unguided 
-Buatlah program menu Linked List Non Circular untuk menyimpan Nama dan NIM Mahasiswa, dengan menggunakan input dari user.
+### 1. Buatlah program untuk menentukan apakah kalimat tersebut yang diinputkan dalam program stack adalah polindrom/tidak. Polindrom kalimat yang dibaca dari depan dan belakang sama. Jelaskan bagaimana cara kerja programnya.
+Contoh
 
-### 1. Implementasikan hash table untuk menyimpan data mahasiswa. Setiap mahasiswa memiliki NIM dan nilai. implementasikan fungsi untuk menambahkan data baru, menghapus data, mencari data berdasarkan NIM, dan mencari data berdasarkan nilai. Dengan ketentuan:
-### a. Setiap mahasiswa memiliki NIM dan nilai
-### b. Program memiliki tampilan pilihan menu berisi poin C
-### c. Implementasikan fungsi untuk menambahkan data baru, menghapus data, mencari data, berdasarkan NIM, dan mencari data berdasarkan rentang nilai (80-90)
+Kalimat : ini
+Kalimat tersebut adalah polindrom
+
+Kalimat : telkom
+Kalimat tersebut adalah bukan polindrom
 
 #### Output:
-## 1. Tambah Data
-![Screenshot 2024-04-17 155245](https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/d09f0bc2-df34-41d8-a231-ccc1721ccf9a)
-![Screenshot 2024-04-17 155257](https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/a1de864d-3234-4923-a7ef-a9587a98ae44)
-![Screenshot 2024-04-17 155309](https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/6bcb56db-7077-4b27-bcf8-c51e1d740dbc)
 
-## 2. Hapus Data
-![Screenshot 2024-04-17 155323](https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/ea17f37d-8b30-4363-b3b5-1d547b4605b0)
-
-## 3. Cari Berdasarkan NIM
-![Screenshot 2024-04-17 155344](https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/ed517e73-5346-4b0f-95a1-3a50db81879b)
-
-## 4. Cari Berdasarkan Rentang Nilai
-![Screenshot 2024-04-17 155414](https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/10d2fa9f-7b25-408f-a1c6-fd59cef63426)
-
-## 5. Tampilan Semua Data
-![Screenshot 2024-04-17 155442](https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/aa9a4b8b-d99c-4a59-a98c-2e8fb5f2f923)
-
-## 6. Keluar
-![Screenshot 2024-04-17 155506](https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/43a8669f-ed6f-47f3-acc3-b8a49d0234de)
 
 ## Deskripsi Program
-Program ini adalah implementasi sederhana dari tabel hash dalam C++. Tabel hash digunakan untuk menyimpan data mahasiswa, yang terdiri dari nama, NIM, dan nilai. Program ini memungkinkan pengguna untuk menambahkan data mahasiswa, mencari data berdasarkan NIM, menghapus data berdasarkan NIM, mencari data berdasarkan rentang nilai, dan menampilkan semua data mahasiswa yang tersimpan.
 
+
+### 2. Buatlah program untuk melakukan pembalikan terhadap kalimat menggunakan stack dengan minimal 3 kata. Jelaskan output program dan source codenya beserta operasi/fungsi yang dibuat
+Contoh
+
+Kalimat : Telkom Purwokerto
+Hasil : otrekowruP mokleT
+
+### Output
+
+## Deskripsi Program
 ## Kesimpulan
 Tumpukan (stack) adalah struktur data yang sederhana namun sangat penting dalam pemrograman. Konsep utamanya adalah "last in, first out" (LIFO) atau "first in, last out" (FILO), yang berarti elemen terakhir yang dimasukkan adalah yang pertama kali dikeluarkan. Dalam kehidupan sehari-hari, tumpukan dapat diibaratkan dengan tumpukan piring di kafetaria, di mana piring terakhir yang ditambahkan adalah yang pertama kali diambil.
 
