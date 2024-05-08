@@ -123,8 +123,6 @@ Output dari program tersebut akan terdiri dari dua bagian utama:
 
 Penjelasan source code:
 
-Tentu, berikut adalah penjelasan singkat mengenai setiap bagian dari source code program tersebut:
-
 ```cpp
 #include <iostream>
 #include <cstring>
