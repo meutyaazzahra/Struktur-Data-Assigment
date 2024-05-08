@@ -11,15 +11,14 @@
 
 ### Tumpukan (Stack) ADTBagaimana memilih fungsi hash?
 Operasi berikut membuat tumpukan menjadi ADT. Untuk kesederhanaan, asumsikan data adalah tipe integer.
-## Operasi tumpukan utama
+### Operasi tumpukan utama
 -	Push (int data) : Menyisipkan data ke tumpukan
 -	int Pop() : menghapus dan mengembalikan elemen terakhir yang dimasukkan dari tumpukan\
-## Operasi tumpukan tambahan 
+### Operasi tumpukan tambahan 
 -	int Top() : mengembalikan elemen yang terakhir dimasukkan  tanpa menghapusnya
 -	int Size() : mengembalikan jumlah elemen yang disimpan dalam tumpukan
 -	int IsEmptyTumpukan(): menunjukkan apakah data elemen yang disimpan dalam tumpukan atau tidak
 -	int IsFullTumpukan() : menunjukkan apakah tumpukan penuh atau tidak
-
 ### Aplikasi
 Berikut ini adalah beberapa aplikasi dimana stack memainkan perang penting
 1.	Aplikasi Langsung
