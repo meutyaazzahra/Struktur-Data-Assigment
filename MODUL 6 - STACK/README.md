@@ -70,7 +70,7 @@ Program tersebut adalah sebuah program dalam bahasa C++ yang bertujuan untuk men
 3. Membandingkan setengah bagian pertama kalimat dengan setengah bagian kedua secara terbalik.
 4. Jika kedua setengah bagian sama secara terbalik, program menyatakan bahwa kalimat tersebut adalah palindrom. Jika tidak, program menyatakan bahwa kalimat tersebut bukan palindrom.
 
-## Cara Kerja Program
+### Cara Kerja Program
 Program di atas adalah sebuah program dalam bahasa C++ yang bertujuan untuk mengecek apakah sebuah kalimat adalah palindrom atau tidak. Berikut adalah penjelasan cara kerjanya:
 
 1. **Header dan Namespace**:
@@ -110,10 +110,11 @@ Hasil : otrekowruP mokleT
 ### Output
 ![Screenshot 2024-05-08 123704](https://github.com/meutyaazzahra/test/assets/161669000/78a73392-c0ac-4ee4-8e61-f06f3a56697b)
 
-## Deskripsi Program
+### Deskripsi Program
 Program tersebut menggunakan struktur data tumpukan (stack) untuk membalikkan kalimat yang dimasukkan pengguna. Setiap karakter dari kalimat dimasukkan ke dalam tumpukan, lalu dikeluarkan satu per satu untuk membalikkan urutannya.
 
-## Penjelasan
+### Penjelasan
+
 Output dari program tersebut akan terdiri dari dua bagian utama:
 
 1. **Kalimat Asli**: Ini adalah kalimat yang dimasukkan oleh pengguna sebelum dibalik.
