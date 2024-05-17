@@ -1,4 +1,4 @@
-# <h1 align="center">Laporan Praktikum Modul 6 - STACK</h1>
+# <h1 align="center">Laporan Praktikum Modul 7 - QUEUE</h1>
 <p align="center">Meutya Azzahra Efendi - 2311102166</p>
 <p align="center">IF - 11 - E</p>
 
