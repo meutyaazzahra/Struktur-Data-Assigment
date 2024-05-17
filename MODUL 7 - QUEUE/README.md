@@ -63,19 +63,8 @@ Program di atas adalah implementasi sederhana dari tumpukan (stack) menggunakan 
 Dengan demikian, program tersebut menyediakan fungsionalitas dasar untuk manajemen buku dalam tumpukan dengan menggunakan array sebagai struktur datanya.
 
 ## Unguided 
-### 1. Buatlah program untuk menentukan apakah kalimat tersebut yang diinputkan dalam program stack adalah polindrom/tidak. Polindrom kalimat yang dibaca dari depan dan belakang sama. Jelaskan bagaimana cara kerja programnya.
-Contoh
-
-Kalimat : ini
-
-Kalimat tersebut adalah polindrom
-
-Kalimat : telkom
-
-Kalimat tersebut adalah bukan polindrom
-
+### 1. Ubahlah penerapan konsep queue pada bagian guided dari array menjadi linked list!
 #### Output:
-![Screenshot 2024-05-08 123207](https://github.com/meutyaazzahra/test/assets/161669000/7a45f516-8479-4c65-9bcb-ee63636f0dd4)
 
 ### Deskripsi Program
 Program tersebut adalah sebuah program dalam bahasa C++ yang bertujuan untuk menentukan apakah sebuah kalimat yang dimasukkan pengguna adalah palindrom atau tidak. Program melakukan hal berikut:
@@ -116,7 +105,7 @@ Program di atas adalah sebuah program dalam bahasa C++ yang bertujuan untuk meng
 
 Dengan demikian, program tersebut mengimplementasikan algoritma untuk menghapus karakter non-alphanumeric, mengubah huruf menjadi huruf kecil, serta mengecek apakah sebuah string adalah palindrom atau tidak.
 
-### 2. Buatlah program untuk melakukan pembalikan terhadap kalimat menggunakan stack dengan minimal 3 kata. Jelaskan output program dan source codenya beserta operasi/fungsi yang dibuat
+### 2. Dari nomor 1 buatlah konsep antri dengan atribut Nama Mahasiswa dan NIM Mahasiswa
 Contoh
 
 Kalimat : Telkom Purwokerto
