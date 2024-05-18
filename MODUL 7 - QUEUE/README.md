@@ -56,7 +56,7 @@ Ada banyak cara (mirip dengan Stacks) untuk mengimplementasikan operasi antrian 
 ### 1. GUIDED 1
 
 #### Output :
-![Screenshot 2024-05-08 112817](https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/1883a1a8-3dbc-4781-927c-90075a77d4af)
+![Screenshot 2024-05-18 152157](https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/9f5fcbdb-37d8-4ef0-8416-96f537d7129a)
 
 ### Deskripsi Program:
 Program di atas adalah implementasi antrean (queue) menggunakan array di C++. Variabel dan fungsi yang digunakan memungkinkan penambahan, penghapusan, dan pengecekan status antrean. Dalam main(), program menambah, menghapus, dan mengosongkan antrean, serta mencetak elemen-elemen dan jumlahnya setelah setiap operasi. Ini adalah demonstrasi sederhana pengelolaan antrean menggunakan array di C++.
