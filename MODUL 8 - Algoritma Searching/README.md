@@ -15,6 +15,7 @@ Metode sequential search atau disebut dengana pencarian beruntun dapat digunakan
 2.	Menentukan data yang dicari
 3.	Mulai dari data pertama sampai dengan data terakhir, data yang dicari dibandingkan dengan masing-masing data di dalam array.
 a.	Jika data yang dicari tidak ditemukan, maka semua data atau elemen array dibandingkan sampai selesai
+
 b.	Jika data yang dicari ditemukan, maka perbandingan akan dihentikan
 
 ### 2.	Metode Binary Search
