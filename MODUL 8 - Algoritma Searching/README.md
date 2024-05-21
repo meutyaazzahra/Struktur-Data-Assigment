@@ -72,4 +72,4 @@ Pencarian adalah proses penting dalam ilmu komputer yang melibatkan menemukan it
 Kesimpulannya, pencarian adalah aspek kunci dalam pengelolaan data komputer, dan pilihan algoritma pencarian yang tepat dapat memengaruhi kinerja aplikasi secara signifikan. Dalam konteks ini, Sequential Search cocok untuk data yang tidak terurut, sementara Binary Search lebih efisien untuk data yang sudah terurut.
 ## Referensi
 [1] Dr. Joseph Teguh Santoso, S. K. (2011). STRUKTUR DATA dan ALGORTIMA (Bagian 1). YAYASAN PRIMA AGUS TEKNIK.
-[2] 
+[2] Prof. Dr. Ema Utami, S. S. (2017). Langkah Mudah Belajar Struktur Data Menggunakan C/C++. 
