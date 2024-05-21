@@ -15,9 +15,9 @@ Metode sequential search atau disebut dengana pencarian beruntun dapat digunakan
 2.	Menentukan data yang dicari
 3.	Mulai dari data pertama sampai dengan data terakhir, data yang dicari dibandingkan dengan masing-masing data di dalam array.
    
-   a.	Jika data yang dicari tidak ditemukan, maka semua data atau elemen array dibandingkan sampai selesai
+              a.	Jika data yang dicari tidak ditemukan, maka semua data atau elemen array dibandingkan sampai selesai
 
-   b.	Jika data yang dicari ditemukan, maka perbandingan akan dihentikan
+              b.	Jika data yang dicari ditemukan, maka perbandingan akan dihentikan
 
 ### 2.	Metode Binary Search
 Metode binary search atau sering pula dinamakan pencarian biner digunakan untuk pencarian data pada array yang sudah terurut. Proses yang terjadi pada pencarian dengan metode ini adalah sebagai berikut:
@@ -27,8 +27,10 @@ Metode binary search atau sering pula dinamakan pencarian biner digunakan untuk 
 4.	Menentukan elemen tengah dari array
 5.	Jika nilai elemen tengah sama dengan data yang dicari, maka pencarian selesai
 6.	Jika nilai elemen tengah tidak sama dengan data yang dicari, maka:
-a.	Jika nilai elemen tengah lebih besar daripada data yang dicari, maka pencarian dilakukan pada setengah array pertama
-b.	Jika nilai elemen tengah lebih kecil daripada data yang dicari, maka pencarian dilakukan pada setengah array berikutnya
+   
+             a.	Jika nilai elemen tengah lebih besar daripada data yang dicari, maka pencarian dilakukan pada setengah array pertama
+
+             b.	Jika nilai elemen tengah lebih kecil daripada data yang dicari, maka pencarian dilakukan pada setengah array berikutnya
 [2]
 
 ## Guided 
