@@ -167,4 +167,5 @@ Dalam graph, istilah-istilah penting meliputi vertex (titik), edge (garis penghu
 Tree adalah struktur data non linier yang menyerupai linked list namun memiliki cabang, sehingga cocok untuk merepresentasikan struktur hierarkis. Dalam tree, urutan elemen tidak penting, dan jika diperlukan, struktur data linier seperti linked list atau stack dapat digunakan. Tree digunakan untuk menggambarkan hubungan hierarkis dan memiliki berbagai aplikasi dalam bidang ilmu komputer dan lainnya.
 ## Referensi
 [1] Mulyana, A., et al., Cara Mudah Mempelajari Algoritma dan Struktur Data. Edisi Pertama. Yogyakarta : DIVA Press, 2021
+
 [2] Dr. Joseph Teguh Santoso, S. K. (2011). STRUKTUR DATA dan ALGORTIMA (Bagian 1). YAYASAN PRIMA AGUS TEKNIK.
