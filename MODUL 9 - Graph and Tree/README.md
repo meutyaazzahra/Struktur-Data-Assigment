@@ -26,26 +26,41 @@ Struktur data bergantung pada struktur graph dan algortima yang digunakan untuk 
 
 ### Istilah pada Graph
 1.	Vertex
+
 Yaitu himpunan node/titik pada graph
+
 2.	Edge
+
 Yaitu himpunan garis yang menghubungkan tiap node/vertex
+
 3.	Adjacent
+
 Dua buah titik dikatakan berdekatan (adjacent) jika keduanya terhubung dengan sebuah sisi
+
 4.	Weight
+
 Sebuah graph G = (V, E) disebut sebuah graph berbobot (weight graph) apabila terdapat sebuah fungsi bobot bernilai W pada himpunan E
+
 5.	Path
+
 Adalah jalur dengan setiap vertex berbeda.
+
 6.	Cycle atau Circuit
+
 Merupakan lintasan yang berawal dan berakhir pada simpul yang sama
 ### Jenis-jenis Graph
-Jenis-jenis Graph
 1.	Graph Tak Berarah (Undirected Graph atau Nondirected Graph)
+
 Pada jenis graph ini, urutan simpul dalam sebuah busur tidak dipentingkan. Misal, busur e1 dapat disebut busur AB atau BA.
 ![WhatsApp Image 2024-05-29 at 20 49 52_f0d30323](https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/41965543-b927-44ae-b996-8849d3fb4e2e)
+
 3.	Graph Berarah (Directed Graph)
+
 Pada jenis graph ini, urutan simpul mempunyai arti. Misal busur AB adalah e1 sedangkan busur BA adalah e8.
 ![WhatsApp Image 2024-05-29 at 20 49 52_404c651b](https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/06f94587-ed24-40d3-8f0a-c92017ea49a5)
+
 4.	Graph berbobot (Weighted Graph)
+
 Jika setiap busur mempunyai nilai yang menyatakan hubungan antara dua buah simpul, maka busur tersebut dinyatakan memiliki bobot. Bobot sebuah busur dapat menyatakan Panjang sebuah jalan dari dua buah titik, jumlah rata-rata kendaraan per hari melalui sebuah jalan, dll.
 ![WhatsApp Image 2024-05-29 at 20 49 52_c7ec6c74](https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/51a8875e-8a87-481e-a19f-cafc1871c957)
 
