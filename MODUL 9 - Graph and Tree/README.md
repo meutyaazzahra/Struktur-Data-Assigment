@@ -41,13 +41,13 @@ Merupakan lintasan yang berawal dan berakhir pada simpul yang sama
 Jenis-jenis Graph
 1.	Graph Tak Berarah (Undirected Graph atau Nondirected Graph)
 Pada jenis graph ini, urutan simpul dalam sebuah busur tidak dipentingkan. Misal, busur e1 dapat disebut busur AB atau BA.
-(gambar)
-2.	Graph Berarah (Directed Graph)
+![WhatsApp Image 2024-05-29 at 20 49 52_f0d30323](https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/41965543-b927-44ae-b996-8849d3fb4e2e)
+3.	Graph Berarah (Directed Graph)
 Pada jenis graph ini, urutan simpul mempunyai arti. Misal busur AB adalah e1 sedangkan busur BA adalah e8.
-(gambar)
-3.	Graph berbobot (Weighted Graph)
+![WhatsApp Image 2024-05-29 at 20 49 52_404c651b](https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/06f94587-ed24-40d3-8f0a-c92017ea49a5)
+4.	Graph berbobot (Weighted Graph)
 Jika setiap busur mempunyai nilai yang menyatakan hubungan antara dua buah simpul, maka busur tersebut dinyatakan memiliki bobot. Bobot sebuah busur dapat menyatakan Panjang sebuah jalan dari dua buah titik, jumlah rata-rata kendaraan per hari melalui sebuah jalan, dll.
-(gambar)
+![WhatsApp Image 2024-05-29 at 20 49 52_c7ec6c74](https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/51a8875e-8a87-481e-a19f-cafc1871c957)
 
 ### Representasi Graph dengan Matriks (Array Dimensi 2)
 Dalam pemrograman, agar data yang ada dalam graph dapat diolah, maka graph harus dinyatakan dalam suatu struktur data yang daoat mewakili graph tersebut. Dalam hal ini, graph perlu direpresentasikan ke dalam bentuk array dan dimensi yang sering disebut matrix.
@@ -63,20 +63,20 @@ Tree adalah struktur data yang mirip dengan linked list tetapi alih-alih setiap 
 Pada tree ADT (Abstract Data Type), urutan elemen tidak penting. Jika kita membutuhkan informasi pemesanan, struktur data linier seperti linked list, stack, dll dapat digunakan.
 
 ### Istilah pada Tree
-(Gambar)
+![WhatsApp Image 2024-05-28 at 22 53 11_6addfe1a](https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/7e87e89e-2aa8-4d3c-ad3d-f98b36b570ed)
 -	Akar pohon adalah simpul tanpa orang tua. Paling banya ada satu simpul akar dalam sebuah pohon (simpul A dalam contoh di atas)
 -	Tepi mengacu pada tautan dari induk ke anak (semua tautan dalam gambar)
 -	Sebuah simpu tanpa anak disebut simpul daun (E, J, K, H, dan I)
 -	Anak dari orang tua yang sama disebut saudara kandung (B, C, D, adalah saudara dari A, dan E, F, adalah saudara dari B)
 -	Sebuah node p adalah ancestor dari node q jika terdapat sebuah path dari root ke q dan p muncul pada path tersebut. Simpul q disebut turunan dari p. Misalnya, A, C, dan G adalah nenek moyang dari if
 -	Himpunan semua node pada kedalaman tertentu disebut level pohon (B, C, dan D adalah level yang sama). Node akar berada pada level nol.
-(gambar)
+![WhatsApp Image 2024-05-28 at 22 53 26_2f31c682](https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/9f692ff4-e86d-4511-aa7a-a3dd531adbf6)
 -	Kedalaman suatu simpul adalah Panjang lintasan dari akar ke simpul tersebut (kedalaman G adalah 2, A-C-G)
 -	Ketinggian suatu simpul adalah Panjang lintasan dari simpul tersebut ke simpul terdalam. Ketinggian tree adalah Panjang jalan dari akar ke simpulterdalam di tree. Sebuah tree (berakar) dengan hanya satu simpul (akar) memiliki ketinggian nol. Pada contoh sebelumnya, tinggi B adalah 2 (B-F-J)
 -	tinggi tree adalah tinggi maksimum di antara semua simpul di pohon dan kedalaman pohon adalah kedalaman maksimum di antara semua simpul di tree. Tetapu untuk node individu, kita mungkin mendapatkan hasil yang berbeda.
 -	Ukuran dari sebuah simpukl adalah jumlah keturunan yang dimilikinya termasuk dirinya sendiri (ukuran dari sub pohon C adalah 3)
 -	Jika setiap simpul dalam sebuah pohon hanya memiliki satu anak (kecuali simpul daun) maka kita menyebutnya pohon miring. Jika setiap simpul hanya memiliki anak kiri maka kita menyebutnya pohon miring kiri. Demikian pula, setiap simpul hanya memiliki anak kanan maka kita menyebutnya pohon miring kanan.
-(gambar)
+![WhatsApp Image 2024-05-28 at 22 54 15_d399d306](https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/d6ef5b29-df3c-4430-bc53-d87dafb6728e) 
 
 
 ## Guided 
