@@ -21,30 +21,25 @@ Keterangan:
 -	Vi  = titik jalur
 -	n = jumlah titik jalur
 
-graph merupakan suatu cabang ilmu yang memiliki banyak terapan. Banyak sekali struktur yang bisa direpresentasikan dengan graph dan banyak masalah yang dapat diselesaikan dengan bantuan graph. Seringkali, graph digunakan untuk merepresentasikan suatu jaringan. Misalkan, jaringan jalan raya dimodelkan graph dengan kota sebagai simpul (vertex/node) dan jalan yang menghubungkan setiap kotanya sebagai sisi (edge) yang bobotnya (weight) adalah Panjang dari jalan tersebut. Ada beberapa cara untuk menyimpan graph di dalam sistem komputer.
+Graph merupakan suatu cabang ilmu yang memiliki banyak terapan. Banyak sekali struktur yang bisa direpresentasikan dengan graph dan banyak masalah yang dapat diselesaikan dengan bantuan graph. Seringkali, graph digunakan untuk merepresentasikan suatu jaringan. Misalkan, jaringan jalan raya dimodelkan graph dengan kota sebagai simpul (vertex/node) dan jalan yang menghubungkan setiap kotanya sebagai sisi (edge) yang bobotnya (weight) adalah Panjang dari jalan tersebut. Ada beberapa cara untuk menyimpan graph di dalam sistem komputer.
 Struktur data bergantung pada struktur graph dan algortima yang digunakan untuk memanipulasi graph. Secara teori, salah satu dari keduanya dapat dibedakan antara struktur linked list dan matrikss (array dimensi 2), tetapi dalam penggunaannya, struktur terbaik yang sering digunakan adalah kombinasi keduanya.
 
 ### Istilah pada Graph
 1.	Vertex
 
 Yaitu himpunan node/titik pada graph
-
 2.	Edge
 
 Yaitu himpunan garis yang menghubungkan tiap node/vertex
-
 3.	Adjacent
 
 Dua buah titik dikatakan berdekatan (adjacent) jika keduanya terhubung dengan sebuah sisi
-
 4.	Weight
 
 Sebuah graph G = (V, E) disebut sebuah graph berbobot (weight graph) apabila terdapat sebuah fungsi bobot bernilai W pada himpunan E
-
 5.	Path
 
 Adalah jalur dengan setiap vertex berbeda.
-
 6.	Cycle atau Circuit
 
 Merupakan lintasan yang berawal dan berakhir pada simpul yang sama
@@ -52,16 +47,19 @@ Merupakan lintasan yang berawal dan berakhir pada simpul yang sama
 1.	Graph Tak Berarah (Undirected Graph atau Nondirected Graph)
 
 Pada jenis graph ini, urutan simpul dalam sebuah busur tidak dipentingkan. Misal, busur e1 dapat disebut busur AB atau BA.
+
 ![WhatsApp Image 2024-05-29 at 20 49 52_f0d30323](https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/41965543-b927-44ae-b996-8849d3fb4e2e)
 
 3.	Graph Berarah (Directed Graph)
 
 Pada jenis graph ini, urutan simpul mempunyai arti. Misal busur AB adalah e1 sedangkan busur BA adalah e8.
+
 ![WhatsApp Image 2024-05-29 at 20 49 52_404c651b](https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/06f94587-ed24-40d3-8f0a-c92017ea49a5)
 
 4.	Graph berbobot (Weighted Graph)
 
 Jika setiap busur mempunyai nilai yang menyatakan hubungan antara dua buah simpul, maka busur tersebut dinyatakan memiliki bobot. Bobot sebuah busur dapat menyatakan Panjang sebuah jalan dari dua buah titik, jumlah rata-rata kendaraan per hari melalui sebuah jalan, dll.
+
 ![WhatsApp Image 2024-05-29 at 20 49 52_c7ec6c74](https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/51a8875e-8a87-481e-a19f-cafc1871c957)
 
 ### Representasi Graph dengan Matriks (Array Dimensi 2)
@@ -99,38 +97,74 @@ Pada tree ADT (Abstract Data Type), urutan elemen tidak penting. Jika kita membu
 ### 1. GUIDED 1
 
 #### Output :
-![Screenshot 2024-05-21 193333](https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/bb8537c0-0d91-4619-a15b-790e79c44713)
+![Screenshot 2024-05-29 212639](https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/d8465cea-c542-4d36-9dde-06404f9bb31b)
 ### Deskripsi Program:
-Program di atas adalah implementasi sederhana dari algoritma pencarian sekuensial dalam C++. Dimulai dengan inisialisasi array `data` yang berisi sepuluh bilangan bulat dan nilai `cari` yang akan dicari, program menggunakan loop `for` untuk memeriksa setiap elemen array. Jika elemen yang dicari ditemukan, variabel `ketemu` diatur ke `true` dan loop dihentikan. Program kemudian mencetak hasil pencarian: jika elemen ditemukan, program menunjukkan indeks di mana elemen tersebut berada; jika tidak, program menyatakan bahwa elemen tidak ditemukan dalam array.
+Program ini ditulis dalam bahasa C++ dan bertujuan untuk menampilkan representasi graf yang menggambarkan hubungan antar simpul (node) melalui busur (edge) dengan bobot tertentu. Program ini mendefinisikan sebuah array `simpul` yang berisi tujuh string yang merepresentasikan nama-nama kota: Ciamis, Bandung, Bekasi, Tasikmalaya, Cianjur, Purwokerto, dan Yogyakarta. Selain itu, program mendefinisikan sebuah matriks 2D `busur` berukuran 7x7 yang menyimpan bobot antara simpul-simpul, di mana bobot ini menunjukkan jarak atau biaya antara dua kota. Jika nilai di matriks adalah 0, maka tidak ada hubungan langsung (busur) antara dua simpul tersebut.
+
+Fungsi `tampilGraph` bertugas untuk menampilkan graf dengan menampilkan setiap simpul beserta semua simpul yang terhubung dengannya serta bobotnya. Fungsi ini menggunakan dua loop bersarang; loop pertama untuk mengiterasi setiap simpul, dan loop kedua untuk mengiterasi setiap busur dari simpul yang sedang diproses. Jika ada busur yang tidak bernilai 0, informasi tentang simpul tujuan dan bobot busur akan ditampilkan.
+
+Fungsi `main` memanggil fungsi `tampilGraph` untuk menampilkan graf ke layar. Output yang dihasilkan menggambarkan graf dengan kota-kota sebagai simpul dan hubungan antar kota sebagai busur beserta bobotnya, seperti: "Ciamis : Bandung(7) Bekasi(8)", yang menunjukkan bahwa Ciamis terhubung dengan Bandung dengan bobot 7 dan Bekasi dengan bobot 8. Program ini secara keseluruhan memberikan visualisasi dari hubungan antar kota melalui representasi graf yang sederhana.
 ### 2. GUIDED 2
 
 ### Output : 
-![Screenshot 2024-05-21 193453](https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/c3e1305d-0cc1-4dbf-bdca-b10cc3ffc5fd)
+![Screenshot 2024-05-29 212738](https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/c45a2f20-acf0-45cf-be85-d66f16087a65)
+
+![Screenshot 2024-05-29 212754](https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/aedc733e-1091-46ff-bedf-67ccce0bede6)
+
+![Screenshot 2024-05-29 212806](https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/b30a1abf-ff7f-47a3-b06b-24496ca32d89)
+
+![Screenshot 2024-05-29 212825](https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/1189049a-e8ca-4e59-81aa-35d56cd04935)
+
+![Screenshot 2024-05-29 212838](https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/d936d28b-486a-421e-aa59-09f90f87fbb4)
 ### Deskripsi Program :
-Program di atas mengimplementasikan pencarian biner di C++ setelah mengurutkan array dengan selection sort. Array `arrayData` berisi tujuh bilangan bulat. Pengguna diminta memasukkan nilai yang ingin dicari. Program mengurutkan array menggunakan fungsi `selection_sort`, kemudian mencari nilai menggunakan `binary_search`. Hasil pencarian ditampilkan, menunjukkan indeks jika nilai ditemukan atau pesan jika tidak ditemukan.
+Program ini adalah implementasi pohon biner dalam bahasa C++ yang mencakup berbagai operasi dasar seperti pembuatan pohon, penambahan node, pembaruan data node, penelusuran (traversal), dan penghapusan node. Pohon biner diwakili oleh struktur `Pohon` yang memiliki pointer ke anak kiri, anak kanan, dan parent. Program dimulai dengan menginisialisasi pohon dan membuat node akar. Node tambahan dapat dimasukkan sebagai anak kiri atau kanan dari node tertentu. Program juga menyediakan fungsi untuk mengubah data node, mengambil dan menampilkan data node tertentu, serta menampilkan informasi lengkap tentang node termasuk parent, sibling, dan anak-anaknya. Operasi penelusuran mencakup pre-order, in-order, dan post-order traversal. Program juga memiliki kemampuan untuk menghapus seluruh pohon atau subtree dari node tertentu dan menampilkan karakteristik pohon seperti ukuran, tinggi, dan rata-rata node per level. Pada fungsi `main`, contoh operasi-operasi ini dijalankan untuk menunjukkan bagaimana pohon biner dapat dimanipulasi dan diperiksa.
 ## Unguided 
-### 1. Buatlah sebuah program untuk mencari sebuah huruf pada sebuah kalimat yang sudah di input dengan menggunakan Binary Search!
-
+### 1. Buatlah program graph dengan menggunakan inputan user untuk menghitung jarak dari sebuah kota ke kota lainnya.
 #### Output:
-![Screenshot 2024-05-21 194443](https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/f98a0274-c755-4af0-aaef-7a5ab8bf36a7)
+![Screenshot 2024-05-29 213921](https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/856026db-987a-4ce3-af95-352917e6cf2e)
 ### Deskripsi Program
-Program di atas adalah implementasi pencarian huruf dalam sebuah kalimat menggunakan algoritma pencarian biner (binary search) dalam bahasa C++. Program meminta pengguna untuk memasukkan sebuah kalimat dan huruf yang ingin dicari. Setelah itu, program menghilangkan spasi dari kalimat dan menyimpan setiap huruf dalam vektor. Kemudian, vektor huruf diurutkan menggunakan fungsi `sort`. Setelah proses pengurutan, program melakukan pencarian menggunakan fungsi `binary_search`. Jika huruf ditemukan, program mencetak indeks di mana huruf tersebut ditemukan dalam daftar huruf yang terurut. Jika tidak ditemukan, program mencetak pesan bahwa huruf tidak ditemukan dalam kalimat.
-### 2.  Buatlah sebuah program yang dapat menghitung banyaknya huruf  vocal dalam sebuah kalimat
+Program ini ditulis dalam bahasa C++ dan berfungsi untuk membuat representasi graf dari sebuah kumpulan kota yang saling terhubung, lalu mencari jarak terpendek antara dua kota menggunakan algoritma Dijkstra. Program dimulai dengan meminta pengguna untuk memasukkan jumlah simpul (kota) dan nama-nama kota tersebut, kemudian membangun matriks adjacency yang menyimpan bobot (jarak) antara setiap pasangan kota. Setelah graf terbentuk, pengguna dapat memasukkan nama kota awal dan kota tujuan. Program kemudian menggunakan algoritma Dijkstra untuk menghitung jarak terpendek dari kota awal ke kota tujuan. Hasilnya ditampilkan sebagai jarak dalam kilometer, atau pesan bahwa jalur antara kota tersebut tidak ditemukan jika salah satu kota tidak ada dalam daftar. Program ini mencakup input pengguna, pembentukan graf, dan penerapan algoritma pencarian jalur terpendek, serta menampilkan hasilnya secara interaktif.
+### 2.  Modifikasi guided tree diatas dengan program menu menggunakan input data tree dari user dan berikan fungsi tambahan untuk menampilkan node child dan descendant dari node yang diinputkan!
 
 ### Output
-![Screenshot 2024-05-21 194730](https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/9ce83163-656a-47a8-83e8-f06141964466)
-### Deskripsi Program
-Program di atas adalah sebuah program sederhana yang menghitung jumlah huruf vokal dalam sebuah kalimat yang dimasukkan oleh pengguna. Setelah meminta pengguna untuk memasukkan sebuah kalimat, program menggunakan sebuah fungsi `count_vowels` untuk mengiterasi setiap karakter dalam kalimat tersebut. Fungsi ini menghitung jumlah huruf vokal dengan memeriksa apakah setiap karakter terdapat dalam string huruf vokal ("aeiou") setelah dikonversi menjadi huruf kecil menggunakan fungsi `tolower`. Setelah menghitung, program mencetak jumlah huruf vokal yang ditemukan dalam kalimat tersebut.
-### 3.   Diketahui data = 9, 4, 1, 4, 7, 10, 5, 4, 12, 4. Hitunglah berapa banyak angka 4 dengan menggunakan algoritma Sequential Search! 
+Pembuatan root
+![Screenshot 2024-05-29 214144](https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/176e4a17-2ba7-46bc-9c20-2be997cdd052)
 
-### Output
-![Screenshot 2024-05-21 210407](https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/26819303-89b6-498c-ad20-62f48db58538)
+Penambahan child
+![Screenshot 2024-05-29 214236](https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/3b629c1f-6bc9-49ff-90b7-ba417b8c48a5)
+![Screenshot 2024-05-29 214310](https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/3fbfb80f-b8f3-4b16-b5dd-d3ede0ff77e9)
+
+Pengubahan data node
+![Screenshot 2024-05-29 214348](https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/fe03a73a-6447-4f21-a22d-686551dc4fb4)
+
+Menampilkan data node
+![Screenshot 2024-05-29 214416](https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/d5c67a41-1b44-435c-a2d3-766cb7a09e12)
+
+Mencari informasi suatu node
+![Screenshot 2024-05-29 214453](https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/94fc57a8-cc5c-4165-890e-d8d64f6f0058)
+
+Pencetakan Tree
+
+- pre order
+![Screenshot 2024-05-29 214521](https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/56003166-7fda-4014-901a-a8d92ae30e84)
+
+- in order
+![Screenshot 2024-05-29 214545](https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/4b0fb5c6-f49f-45f8-aed1-7b218d874e2f)
+
+- post order
+![Screenshot 2024-05-29 214604](https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/e2e706c6-d9a6-47ee-b2d2-1c371d1b3d7a)
+
+Penghapusan subtree dari root
+![Screenshot 2024-05-29 214637](https://github.com/meutyaazzahra/Struktur-Data-Assigment/assets/161669000/140cbd3d-47f9-4d74-83b0-b714ef403631)
+
 ### Deskripsi Program
-Program di atas adalah program sederhana yang menghitung jumlah kemunculan angka 4 dalam sebuah array menggunakan metode pencarian sekuensial (Sequential Search). Setelah inisialisasi array `data`, program menggunakan fungsi `count_number_4` untuk mengiterasi setiap elemen dalam array dan menghitung jumlah kemunculan angka 4. Setelah itu, hasil perhitungan ditampilkan menggunakan `cout`.
+Program ini adalah implementasi dari sebuah pohon biner dalam bahasa C++. Pohon biner tersebut dibuat dan dimanipulasi melalui berbagai fungsi yang terdapat dalam kelas `Tree`. Program ini memungkinkan pengguna untuk membuat root, menambahkan anak kiri dan kanan, mengubah data node, menampilkan data node, dan mencari node dalam pohon. Selain itu, pengguna dapat melakukan penelusuran pre-order, in-order, dan post-order, serta menghapus subtree atau seluruh pohon. Program juga bisa menampilkan karakteristik pohon seperti ukuran dan tinggi pohon. Pengguna berinteraksi dengan pohon melalui menu pilihan yang tampil di konsol, memungkinkan berbagai operasi dilakukan secara interaktif. Program ini merupakan contoh sederhana dari struktur data pohon biner yang memanfaatkan pointer untuk mengelola hubungan antar node.
 ## Kesimpulan
-Pencarian adalah proses penting dalam ilmu komputer yang melibatkan menemukan item dengan properti tertentu dari kumpulan item. Metode pencarian seperti Sequential Search dan Binary Search digunakan untuk mencari data dalam struktur data seperti array. Sequential Search melakukan pencarian dengan cara membandingkan setiap elemen dalam array secara berurutan dengan elemen yang dicari, sementara Binary Search memanfaatkan fakta bahwa data harus diurutkan terlebih dahulu dan melakukan pencarian dengan membagi array menjadi setengah setiap kali, mencari di setengah yang relevan berdasarkan hasil perbandingan dengan elemen tengah. 
+Kesimpulannya, graph dan tree adalah dua struktur data penting yang digunakan untuk merepresentasikan hubungan antara objek dalam berbagai konteks. Graph terdiri dari node (vertex) yang dihubungkan oleh garis (edge), dan dapat merepresentasikan jaringan seperti jaringan jalan raya dengan kota sebagai node dan jalan sebagai edge. Graph dapat disimpan menggunakan linked list, matriks, atau kombinasi keduanya, tergantung pada struktur dan algoritma yang digunakan.
 
-Kesimpulannya, pencarian adalah aspek kunci dalam pengelolaan data komputer, dan pilihan algoritma pencarian yang tepat dapat memengaruhi kinerja aplikasi secara signifikan. Dalam konteks ini, Sequential Search cocok untuk data yang tidak terurut, sementara Binary Search lebih efisien untuk data yang sudah terurut.
+Dalam graph, istilah-istilah penting meliputi vertex (titik), edge (garis penghubung), adjacent (ketetanggaan), weight (bobot), path (jalur), dan cycle (siklus). Graph banyak diterapkan dalam menyelesaikan berbagai masalah yang melibatkan hubungan antar objek.
+
+Tree adalah struktur data non linier yang menyerupai linked list namun memiliki cabang, sehingga cocok untuk merepresentasikan struktur hierarkis. Dalam tree, urutan elemen tidak penting, dan jika diperlukan, struktur data linier seperti linked list atau stack dapat digunakan. Tree digunakan untuk menggambarkan hubungan hierarkis dan memiliki berbagai aplikasi dalam bidang ilmu komputer dan lainnya.
 ## Referensi
-[1] Dr. Joseph Teguh Santoso, S. K. (2011). STRUKTUR DATA dan ALGORTIMA (Bagian 1). YAYASAN PRIMA AGUS TEKNIK.
-[2] Prof. Dr. Ema Utami, S. S. (2017). Langkah Mudah Belajar Struktur Data Menggunakan C/C++. 
+[1] Mulyana, A., et al., Cara Mudah Mempelajari Algoritma dan Struktur Data. Edisi Pertama. Yogyakarta : DIVA Press, 2021
+[2] Dr. Joseph Teguh Santoso, S. K. (2011). STRUKTUR DATA dan ALGORTIMA (Bagian 1). YAYASAN PRIMA AGUS TEKNIK.
