@@ -1,4 +1,4 @@
-# <h1 align="center">TUBES STRUKDAT - Graph and Tree</h1>
+# <h1 align="center">TUBES STRUKDAT - Pemesanan dan Reservasi Restoran</h1>
 <p align="center">Meutya Azzahra Efendi - 2311102166</p>
 <p align="center">Lailatur Rahmaah - 2311102177</p>
 <p align="center">Fatik Nurimamah - 2311102190</p>
